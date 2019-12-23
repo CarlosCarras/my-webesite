@@ -2,21 +2,248 @@
     text-align: center;
 }
 
-.App-logo {
-    height: 40vmin;
+.wallpaper {
+    background-image: url("../../assets/homescreen.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+}
+.wallpaper > header {
+    position: relative;
+    top: 5vh;
+    left: 5vh;
+    width: 100%;
+    padding: 20px 10px;
+    background: inherit;
+    background-attachment: fixed;
+}
+.wallpaper > header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    background-attachment: fixed;
+}
+.wallpaper > header > h1 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 5em;
+    color: white;
+    position: relative;
+    text-align: left;
+    margin-bottom: 15vh;
+}
+.wallpaper > header > h2 {
+    font-size: 2em;
+    color: white;
+    position: relative;
+    text-align: left;
+}
+.wallpaper > header > h5 {
+    font-size: 1em;
+    color: white;
+    position: relative;
+    text-align: left;
+    margin-top: 25vh;
+    opacity: 0%;
+    animation: showup 1s ease forwards 5.2s;
 }
 
-.App-header {
+* {
+    box-sizing: border-box;
+}
+
+.About-Me {
     background-color: #282c34;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
 }
 
+.App-footer {
+    background-color: #000000;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
 .App-link {
     color: #09d3ac;
+}
+
+/* Created Using Tutorial: https://www.youtube.com/watch?v=vJNVramny9k by Dev Ed*/
+#page-title {
+    animation: fill 1s ease forwards 2.5s;
+}
+
+#page-title path:nth-child(1){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards;
+}
+#page-title path:nth-child(2){
+    stroke-dasharray: 1000px;
+    stroke-dashoffset: 1000px;
+    animation: line-anim 2s ease forwards 0.1s;
+}
+#page-title path:nth-child(3){
+    stroke-dasharray: 1000px;
+    stroke-dashoffset: 1000px;
+    animation: line-anim 2s ease forwards 0.2s;
+}
+#page-title path:nth-child(4){
+    stroke-dasharray: 1000px;
+    stroke-dashoffset: 1000px;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+#page-title path:nth-child(5){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 0.4s;
+}
+#page-title path:nth-child(6){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 0.5s;
+}
+#page-title path:nth-child(7){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+#page-title path:nth-child(8){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 0.7s;
+}
+#page-title path:nth-child(9){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 0.8s;
+}
+#page-title path:nth-child(10){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+#page-title path:nth-child(11){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 1.0s;
+}
+#page-title path:nth-child(12){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 1.1s;
+}
+#page-title path:nth-child(13){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+#page-title path:nth-child(14){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 1.3s;
+}
+#page-title path:nth-child(15){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 1.4s;
+}
+#page-title path:nth-child(16){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+#page-title path:nth-child(17){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 1.6s;
+}
+#page-title path:nth-child(18){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 1.7s;
+}
+
+@keyframes line-anim {
+    to {
+      stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    from {
+      fill: transparent;
+    }
+    to {
+      fill: white;
+    }
+}
+
+/* End of Tutorial */
+
+#title-caption {
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+    float: left;
+}
+
+#title-caption:first-of-type {
+    opacity: 0%;
+    animation: showup 1s ease forwards 3.5s;
+}
+
+
+#title-caption:last-of-type span {
+    color: orange;
+    margin-left:-355px;
+    animation: slidein 3s ease forwards 2.5s;
+}
+
+@keyframes showup {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes slidein {
+    from {
+      margin-left: -800px;
+    }
+    to {
+      margin-left: 0px;
+    }
+}
+
+#degree-list {
+    position: relative;
+    display: block;
+    color: white;
+}
+
+#degree-list-items {
+    list-style-type: none;
+    float: left;
+    margin-left: 20px;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 1.2em;
 }
