@@ -1,0 +1,27 @@
+.howitsmade-container {
+    padding: 10vh 0 10vh 0;
+    height: 80vh;
+}
+
+.howitsmade-container > h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 8vh;
+    box-sizing: border-box;
+}
+
+.howitsmade-container > p {
+    padding: 0 8vw 0 8vw;
+    font-size: 1em;
+}
+
+.howitsmade-container > .button-group {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8vh;
+}
+
+.github-repo-logo-color {
+    fill: #ffffff;
+}

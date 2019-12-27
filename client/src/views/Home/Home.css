@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.wallpaper {
+.section1 {
     background-image: url("../../assets/homescreen.jpg");
     background-attachment: fixed;
     width: 100%;
@@ -11,7 +11,7 @@
     overflow: hidden;
     margin: 0px;
 }
-.wallpaper > header {
+.section1 > header {
     position: relative;
     top: 5vh;
     left: 5vh;
@@ -20,7 +20,7 @@
     background: inherit;
     background-attachment: fixed;
 }
-.wallpaper > header::before {
+.section1 > header::before {
     content: "";
     position: absolute;
     top: 0;
@@ -30,7 +30,7 @@
     background: inherit;
     background-attachment: fixed;
 }
-.wallpaper > header > h1 {
+.section1 > header > h1 {
     font-family: 'Bowlby One SC', cursive;
     font-size: 5em;
     color: white;
@@ -38,13 +38,13 @@
     text-align: left;
     margin-bottom: 15vh;
 }
-.wallpaper > header > h2 {
+.section1 > header > h2 {
     font-size: 2em;
     color: white;
     position: relative;
     text-align: left;
 }
-.wallpaper > header > h5 {
+.section1 > header > h5 {
     font-size: 1em;
     color: white;
     position: relative;
@@ -54,31 +54,24 @@
     animation: showup 1s ease forwards 5.2s;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-.About-Me {
+.section2 {
     background-color: #282c34;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
+    color: white;
+    min-height: 80vh;
     color: white;
 }
 
-.App-footer {
-    background-color: #000000;
-    height: 20vh;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-size: calc(10px + 2vmin);
-    color: white;
+.section2 > .About-Me-Header {
+    position: absolute;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
 }
 
-.App-link {
-    color: #09d3ac;
+.section2 > .About-Me-Header:hover {
+    color: #bbbbbb;
+    cursor: pointer;
 }
 
 /* Created Using Tutorial: https://www.youtube.com/watch?v=vJNVramny9k by Dev Ed*/
@@ -213,24 +206,6 @@
     animation: slidein 3s ease forwards 2.5s;
 }
 
-@keyframes showup {
-    from {
-        opacity: 0%;
-    }
-    to {
-        opacity: 100%;
-    }
-}
-
-@keyframes slidein {
-    from {
-      margin-left: -800px;
-    }
-    to {
-      margin-left: 0px;
-    }
-}
-
 #degree-list {
     position: relative;
     display: block;
@@ -243,7 +218,53 @@
     margin-left: 20px;
 }
 
-.bold-text {
-    font-weight: bold;
-    font-size: 1.2em;
+/* Using Tutorial: https://codepen.io/nxworld/pen/OyRrGy by Naoya */
+
+.scroll-arrow a {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  transition: opacity .3s;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: arrow-anim 2s infinite;
+  animation: arrow-anim 2s infinite;
+  box-sizing: border-box;
+}
+.scroll-arrow a:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
+@-webkit-keyframes arrow-anim {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+}
+@keyframes arrow-anim {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
 }

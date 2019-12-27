@@ -3,8 +3,13 @@ import { Route, Switch, Redirect  } from 'react-router-dom';
 import Home from "./views/Home/Home"
 import NotFound from "./views/NotFound/NotFound"
 import NavBar from "./components/Navbar/Navbar"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from "./assets/Theme.css"
+import Resume from "./components/Resume/Resume"
+import ContactMe from "./components/ContactMe/ContactMe"
+import Gallery from "./components/Gallery/Gallery"
+import HowItsMade from "./components/HowItsMade/HowItsMade"
+import Footer from "./components/Footer/Footer"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './assets/Theme.css';
 
 
 const App = () => {
@@ -13,11 +18,14 @@ const App = () => {
       <NavBar/>
       <Switch>
         <Route exact path="/Home" component={Home} />
-        <Route exact path="/">
-          <Redirect to="/Home" />
-        </Route>
+        <Route exact path="/"><Redirect to="/Home" /></Route>
+        <Route exact path="/Resume" component={Resume}></Route>
+        <Route exact path="/ContactMe" component={ContactMe}></Route>
+        <Route exact path="/Gallery" component={Gallery}></Route>
+        <Route exact path="/HowItsMade" component={HowItsMade}></Route>
         <Route component={NotFound}/>
       </Switch>
+      <Footer/>
     </div>
   );
 }

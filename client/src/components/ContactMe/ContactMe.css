@@ -1,0 +1,55 @@
+.contact-me-container {
+    background: white;
+    padding-top: 10vh;
+    height: 90vh;
+}
+
+.contact-me-row {
+    display: flex;
+}
+
+.contact-me-column {
+    flex: 50%;
+}
+
+.left-column {
+    padding-left: 10vw;
+}
+
+.contact-header {
+    color: black;
+    font-size: 3em;
+    margin-bottom: 5vh;
+}
+
+.container > p {
+    color: inherit;
+    font-size: 16;
+}
+
+.summary {
+    color: inherit;
+    margin-left: -800px;
+    animation: slidein 1s ease forwards 0.1s;
+}
+.summary > .university-name {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.contact-list > li{
+    color: inherit;
+    list-style-type: none;
+}
+
+.contact-info {
+    color: inherit;
+}
+
+.signature {
+    font-family: 'Cookie', cursive;
+    margin-top: 10vh;
+    font-size: 3em;
+    opacity: 0%;
+    animation: showup 1s ease forwards 1.5s;
+}

@@ -1,10 +1,11 @@
 import React from 'react';
 import './Home.css';
+import { Link as ScrollLink } from "react-scroll";
 
 function Home() {
     return (
         <div className="App">
-            <div className="wallpaper">
+            <div className="section1">
                 <header>
                     <h1>
                         <svg width="669" height="171" viewBox="0 0 669 171" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="white" strokeWidth="5" id="page-title">
@@ -52,29 +53,21 @@ function Home() {
                     <h2 id="title-caption">University of</h2>
                     <h2 id="title-caption"><span>&nbsp;Florida</span></h2>
 
-                    <h5 id="degree-list"><span className="bold-text">Expected May 2021</span><br/>
+                    <h5 id="degree-list"><span className="bold-text font-size-1pt2em">Expected May 2021</span><br/>
                         <ul id="degree-list-items">
                             <li> Bachelor of Science, Mechanical Engineering</li>
                             <li> Bachelor of Science, Computer Engineering</li>
                         </ul>
                     </h5>
                 </header>
+                <section className="scroll-arrow">
+                    <ScrollLink to="section2" spy={true} smooth={true} offset={-70} duration= {500}></ScrollLink>
+                </section>
             </div>
-            {/*
-            <header className="About-Me">
-                <p> Edit <code>src/App.js</code> and save to reload.</p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                </a>
+
+            <header className="section2">
+                <ScrollLink to="section2" spy={true} smooth={true} offset={-70} duration= {500} className="About-Me-Header"> About Me </ScrollLink>
             </header>
-            */}
-            <footer className="App-footer">
-                <p> Hmmm, I wonder what I'm going to put here... </p>
-            </footer>
         </div>
     );
 }
