@@ -11,10 +11,9 @@ class Gallery extends React.Component {
     render() {
         return(
           <div className="resume-page-container parallax">
-
               <h1>R&eacute;sum&eacute;</h1>
               <div className="button-group">
-                  <a href={Resume} target="_blank" rel="noopener noreferrer" >
+                  <a href={Resume} target="_blank" rel="noopener noreferrer">
                       <Button type="submit" shape="round" icon="download" size="large" ghost="true">
                           Download
                       </Button>
@@ -33,7 +32,8 @@ class Gallery extends React.Component {
                           Summer Internship with
                           <a href="https://www.pw.utc.com" target="_blank" rel="noopener noreferrer">
                               Pratt and Whitney
-                          </a><br/><br/>
+                          </a><br/>
+                          [Move Me]
                       </div>
                   </div>
               </Draggable>

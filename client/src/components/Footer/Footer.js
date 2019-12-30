@@ -5,9 +5,13 @@ class Footer extends React.Component {
 
     render() {
         return(
-          <footer>
-              <h1>Hmmm, I wonder what I'm going to put here...</h1>
-          </footer>
+          <div className="footer">
+              <p>
+                  So normally, this is the place where people add a subsription form or a second navbar or some other useful links. I would just like to shoutout Stack Overflow and the many
+                  tutorials out there that helped me make this possible! More about that in the <a href="/../HowItsMade">How It's Made</a> page. Oh, and
+                  happy holidays!
+              </p>
+          </div>
         )
     }
 }

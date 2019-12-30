@@ -2,6 +2,8 @@ import React from 'react';
 import './Home.css';
 import { Link as ScrollLink } from "react-scroll";
 
+const ProfilePic = require('./../../assets/profile_picture.jpeg')
+
 function Home() {
     return (
         <div className="App">
@@ -65,9 +67,28 @@ function Home() {
                 </section>
             </div>
 
-            <header className="section2">
-                <ScrollLink to="section2" spy={true} smooth={true} offset={-70} duration= {500} className="About-Me-Header"> About Me </ScrollLink>
-            </header>
+            <div className="section2">
+                <header><ScrollLink to="section2" spy={true} smooth={true} offset={-70} duration= {500} className="about-me-header-link"> About Me </ScrollLink></header>
+                <div className="row" style={{paddingBottom:"50px"}}>
+                    <div className="two-col-format-column about-me-column-left">
+                        <div className="profile-pic-frame">
+                            <img src={ProfilePic} alt="profile pic"/>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div className="two-col-format-column">
+                        <p style={{textIndent:"50px"}}>
+                            My name is Carlos Carrasquillo, and I was born in Canovanas, Puerto Rico. My dad, who was a licensed recreational pilot at the time, exposed me to planes at a young age. I developed an interest
+                            for mechanical systems by learning about the intricacies of how aircraft worked. In high school, I was exposed to computer science via an introductary course, which sparked my interest in software engineering.
+                            I later enrolled into the University of Florida with the goal of pursuing Mechanical Engineering. After being inspired some Electrical Engineering classes, I picked up a second degree in Computer Engineering.
+                        </p>
+                        <p style={{textIndent:"50px"}}>
+                            At the University of Florida, I spend my time working on undergraduate research, mechanical design teams, and personal projects. My passion for teaching others has also led me to become a TA for various courses under the Mechanical and
+                            Aerospace Engineering Department. I hope that someday, my work in engineering will inspire others and benefit the generations to come.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

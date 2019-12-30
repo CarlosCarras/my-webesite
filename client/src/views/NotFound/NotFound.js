@@ -4,7 +4,7 @@ import './NotFound.css';
 
 const NotFound = () => {
     return(
-        <div className="container">
+        <div className="not-found-container">
             <p id="page404-code"> Oops!
                 <div id="page404-text">
                     It appears that the page you are looking for is not available.

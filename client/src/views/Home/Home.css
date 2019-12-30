@@ -5,10 +5,10 @@
 .section1 {
     background-image: url("../../assets/homescreen.jpg");
     background-attachment: fixed;
+    overflow: hidden;
     width: 100%;
     height: 600px;
     position: relative;
-    overflow: hidden;
     margin: 0px;
 }
 .section1 > header {
@@ -59,19 +59,43 @@
     color: white;
     min-height: 80vh;
     color: white;
+    padding: 0 15vw 0;
+    width: 100vw;
 }
 
-.section2 > .About-Me-Header {
-    position: absolute;
-    transform: translate(-50%, 50%);
+.section2 > header {
+    color: white;
+    position: relative;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    padding: 4vh 0 8vh 0;
     font-size: 3em;
 }
 
-.section2 > .About-Me-Header:hover {
-    color: #bbbbbb;
+.section2 > ScrollLink:hover {
     cursor: pointer;
+}
+
+.section2 img {
+    height: 380px;
+    width:  300px;
+}
+
+
+.profile-pic-frame {
+    background: white;
+    margin-top: 25px;
+    padding-top: 10px;
+    height: 400px;
+    width: 320px;
+}
+
+.two-col-format-column > p {
+    padding-left: 50px;
+    text-align: left;
+}
+
+.section2  .two-col-format-column > p {
+    text-indent: 50px;
 }
 
 /* Created Using Tutorial: https://www.youtube.com/watch?v=vJNVramny9k by Dev Ed*/
@@ -267,4 +291,28 @@
   40% {
     transform: rotate(-45deg) translate(0, 0);
   }
+}
+
+/* End of Tutorial*/
+
+/* For Smartphones */
+@media only screen and (max-width: 980px) {
+    .section2 {
+        background-color: #282828;
+        color: white;
+        min-height: 80vh;
+        color: white;
+        justify-content: center;
+    }
+    .profile-pic-frame {
+        background: white;
+        padding-top: 10px;
+        margin-bottom: 50px;
+        height: 400px;
+        width: 320px;
+    }
+    .about-me-column-left {
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -1,0 +1,56 @@
+.wireframe-design-container {
+	  display: flex;
+	  max-width: 100vw;
+	  padding: 4% 2%;
+	  height: 400px;
+}
+
+.wireframe {
+		display: block;
+		position: relative;
+		text-decoration: none;
+		text-align: center;
+		color: #333;
+		padding: 10px;
+		border: 1px solid #BFBFBF;
+		background-color: white;
+		z-index: 2;
+		font-size: 0.7em;
+		-webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+		-moz-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+		box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+}
+
+.wireframe-design-container > .wireframe:nth-child(1) {
+		height: 320px;
+		width: 320px;
+		-webkit-transform: rotate(-10deg);
+		-moz-transform: rotate(-10deg);
+		transform: rotate(-10deg);
+}
+.wireframe-design-container > .wireframe:nth-child(1) > img {
+		height: 300px;
+		width: 300px;
+}
+
+.wireframe-design-container > .wireframe:nth-child(2) {
+		height: 280px;
+		width: 200px;
+		-webkit-transform: rotate(5deg);
+		-moz-transform: rotate(5deg);
+		transform: rotate(5deg);
+}
+.wireframe-design-container > .wireframe:nth-child(2) > img {
+		height: 260px;
+		width: 180px;
+}
+
+.wireframe-design-col-left {
+		padding: 50px 10vw 0 10vw;
+}
+
+@media only screen and (max-width: 600px) {
+		.wireframe-design-col-left {
+				padding: 100px 10vw 0 0;
+		}
+}

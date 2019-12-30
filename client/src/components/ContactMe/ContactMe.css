@@ -1,25 +1,14 @@
 .contact-me-container {
-    background: white;
+    background-color: #E9E9E9;
+    display:inline-block;
     padding-top: 10vh;
-    height: 90vh;
+    width: 100vw;
 }
 
-.contact-me-row {
-    display: flex;
-}
-
-.contact-me-column {
-    flex: 50%;
-}
-
-.left-column {
-    padding-left: 10vw;
-}
-
-.contact-header {
+.contact-me-col-left header {
     color: black;
     font-size: 3em;
-    margin-bottom: 5vh;
+    padding-bottom: 20px;
 }
 
 .container > p {
@@ -28,28 +17,59 @@
 }
 
 .summary {
-    color: inherit;
-    margin-left: -800px;
-    animation: slidein 1s ease forwards 0.1s;
-}
-.summary > .university-name {
-    font-weight: bold;
-    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+    animation: slidein 1s ease forwards 0s;
 }
 
-.contact-list > li{
+.summary > img {
+    margin: 10px 0 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0;
+    animation: showup 1s ease forwards 2.5s;
+}
+
+.contact-list > li {
     color: inherit;
     list-style-type: none;
-}
-
-.contact-info {
-    color: inherit;
+    opacity: 0;
+    animation: showup 0.2s ease forwards 0.1s;
 }
 
 .signature {
     font-family: 'Cookie', cursive;
-    margin-top: 10vh;
     font-size: 3em;
     opacity: 0%;
     animation: showup 1s ease forwards 1.5s;
+}
+
+.contact-me-col-left {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10vh;
+    text-align: center;
+}
+.contact-me-col-right {
+    display: flex;
+    justify-content: center;
+}
+
+/* For Monitors and Large Displays */
+@media screen and (min-width: 1024px) {
+    .contact-me-col-left {
+        padding-left: 10vw;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+    }
+    .contact-me-col-right {
+        padding-right: 10vw;
+        display: flex;
+        justify-content: center;
+    }
+    .summary {
+        text-align: left;
+    }
 }

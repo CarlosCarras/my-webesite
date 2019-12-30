@@ -1,9 +1,9 @@
 .gallery-page-container {
     padding: 10vh 0 10vh 0;
-    background: white;
+    background-color: #222;
 }
-.gallery-page-container > .gallery-header-container {
-    color: black;
+.gallery-page-container > h1 {
+    color: white;
     font-size: 3em;
     text-align: center;
     margin-bottom: 5vh;
@@ -14,7 +14,6 @@
 .gallery-container {
     width: 100%;
     min-height: 20vh;
-    background: inherit;
     margin: 0;
     justify-content: center;
     display: flex;
@@ -28,12 +27,12 @@
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .gallery-container .box .img-box {
     position: relative;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .gallery-container .box .img-box img {
     object-fit: cover;
@@ -53,7 +52,7 @@
     background: rgba(0, 0, 0, 0.7);
     transform: scaleY(0);
     transition: transform 0.5s;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .gallery-container .box:hover .img-info {
     transform: scaleY(1);

@@ -1,13 +1,14 @@
 .howitsmade-container {
-    padding: 10vh 0 10vh 0;
-    height: 80vh;
+    background-color: #E9E9E9;
+    display:inline-block;
+    width: 100%;
 }
 
 .howitsmade-container > h1 {
     font-size: 3em;
     text-align: center;
-    margin-bottom: 8vh;
     box-sizing: border-box;
+    padding: 0 5vh 8vh 5vh;
 }
 
 .howitsmade-container > p {

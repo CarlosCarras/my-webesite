@@ -43,10 +43,8 @@ class Gallery extends React.Component {
 
     render() {
         return(
-          <div className="gallery-page-container">
-              <div className="gallery-header-container">
-                  Gallery
-              </div>
+          <div className="gallery-page-container parallax">
+              <h1>Gallery</h1>
               <div className="gallery-container">
                   {this.getElement(0)}
                   {this.getElement(1)}

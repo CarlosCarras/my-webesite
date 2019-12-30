@@ -1,4 +1,4 @@
-footer {
+.footer {
     position: relative;
     display: flex;
     margin: 0;
@@ -10,11 +10,17 @@ footer {
     display: flex;
 }
 
-footer > h1 {
+.footer > p {
     margin: auto;
     text-align: center;
     position: absolute;
-    transform: translate(0, 50%);
     color: white;
-    font-size: calc(10px + 2vmin);
+    font-size: 16px;
+    text-align: left;
+    padding: 0 20vh 0;
+}
+
+.footer > p > a {
+    color: #888888;
+    text-decoration: none;
 }

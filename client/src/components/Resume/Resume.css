@@ -32,3 +32,10 @@
 .resume-page-container > .button-group Button {
     color: white;
 }
+
+/* For Smartphone viewing */
+@media (max-width: 1024px) {
+  .sticky {
+    display: none;
+  }
+}

@@ -7,7 +7,8 @@ const name       = "Carlos Carrasquillo",
       dept       = ["Dept. of Mechanical and Aerospace Engineering",
                     "Dept. of Computer and Electrical Engineering"],
       phone      = "(787) 668-8096",
-      email      = "c.carrasquillo@ufl.edu";
+      email      = "c.carrasquillo@ufl.edu",
+      ProfilePic = require('./../../assets/profile_picture.jpeg');
 
 
 class ContactMe extends React.Component {
@@ -39,25 +40,24 @@ class ContactMe extends React.Component {
     render(){
         return (
             <div className="contact-me-container">
-                <div className="contact-me-row">
-                    <div className="contact-me-column left-column">
-                        <header className="contact-header">Contact Me</header>
-                        <div className="summary">
-                            {/*this.getName()*/}
-                            <span className="university-name">{this.getUniversity()}</span>
-                            <ul className="contact-list">
-                                <li>{this.getDept(0)}</li>
-                                <li>{this.getDept(1)}</li>
-                            </ul>
-                            <div className="signature">Carlos Carrasquillo</div>
-                            <ul className="contact-list contact-info">
-                                <li>Phone: {this.getPhone()}</li>
-                                <li>Email: {this.getEmail()}</li>
-                            </ul>
+                <div className="row" style={{paddingBottom: "15vh"}}>
+                    <div className="two-col-format-column contact-me-col-left">
+                        <div>
+                            <header>Contact Me</header>
+                            <div className="summary">
+                                <img src={ProfilePic} alt="profile pic"/>
+                                <div className="signature">Carlos Carrasquillo</div>
+                                <ul className="contact-list">
+                                    <li>Phone: {this.getPhone()}</li>
+                                    <li>Email: {this.getEmail()}</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div className="contact-me-column right-column">
-                        <ContactForm/>
+                    <div className="two-col-format-column">
+                        <div className="contact-me-col-right">
+                          <ContactForm/>
+                        </div>
                     </div>
                 </div>
             </div>

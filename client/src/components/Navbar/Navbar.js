@@ -13,6 +13,7 @@ class NavBar extends React.Component {
                     <Nav.Link href="/Resume">R&eacute;sum&eacute;</Nav.Link>
                     <Nav.Link href="/ContactMe">Contact Me</Nav.Link>
                     <Nav.Link href="/Gallery">Gallery</Nav.Link>
+                    <Nav.Link href="/FAQ">FAQ</Nav.Link>
                     <Nav.Link href="/HowItsMade">How It's Made</Nav.Link>
                 </Nav>
                 {/*
