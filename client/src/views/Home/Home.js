@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import ReactTooltip from 'react-tooltip';
 import { Link as ScrollLink } from "react-scroll";
 
 const ProfilePic = require('./../../assets/profile_picture.jpeg')
@@ -67,8 +68,8 @@ function Home() {
                 </section>
             </div>
 
-            <div className="section2">
-                <header><ScrollLink to="section2" spy={true} smooth={true} offset={-70} duration= {500} className="about-me-header-link"> About Me </ScrollLink></header>
+            <div className="section2" id="AboutMe">
+                <header><ScrollLink to="section2" spy={true} smooth={true} offset={-70} duration= {500}> About Me </ScrollLink></header>
                 <div className="row" style={{paddingBottom:"50px"}}>
                     <div className="two-col-format-column about-me-column-left">
                         <div className="profile-pic-frame">
@@ -77,15 +78,26 @@ function Home() {
                         <div></div>
                     </div>
                     <div className="two-col-format-column">
-                        <p style={{textIndent:"50px"}}>
+                        <div className="about-me-text">
+
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             My name is Carlos Carrasquillo, and I was born in Canovanas, Puerto Rico. My dad, who was a licensed recreational pilot at the time, exposed me to planes at a young age. I developed an interest
                             for mechanical systems by learning about the intricacies of how aircraft worked. In high school, I was exposed to computer science via an introductary course, which sparked my interest in software engineering.
-                            I later enrolled into the University of Florida with the goal of pursuing Mechanical Engineering. After being inspired some Electrical Engineering classes, I picked up a second degree in Computer Engineering.
-                        </p>
-                        <p style={{textIndent:"50px"}}>
+                            I later enrolled into the University of Florida with the goal of pursuing Mechanical Engineering. After being inspired some Electrical Engineering classes, I picked up a second degree in Computer Engineering &nbsp;
+
+                            <span data-tip data-for='dual-degree-info'>
+                                <i className="fa fa-info-circle" style={{color: 'white'}}></i>
+                            </span>
+                            <ReactTooltip id='dual-degree-info' delayHide={500} type='info' effect='solid' place={'right'}>
+                                <span style={{textIndent:"0px"}}>For more info on this decision, click <a href="./FAQ#question1" style={{color:"white"}}>here</a>.</span>
+                            </ReactTooltip> .
+                        </div>
+                        <br/>
+                        <div className="about-me-text">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             At the University of Florida, I spend my time working on undergraduate research, mechanical design teams, and personal projects. My passion for teaching others has also led me to become a TA for various courses under the Mechanical and
                             Aerospace Engineering Department. I hope that someday, my work in engineering will inspire others and benefit the generations to come.
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>

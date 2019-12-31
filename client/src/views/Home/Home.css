@@ -89,13 +89,16 @@
     width: 320px;
 }
 
-.two-col-format-column > p {
-    padding-left: 50px;
+.two-col-format-column > .about-me-text {
     text-align: left;
 }
 
-.section2  .two-col-format-column > p {
-    text-indent: 50px;
+#dual-degree-info {
+     pointer-events: auto;
+     &:hover {
+        visibility: visible;
+        opacity: 1;
+     }
 }
 
 /* Created Using Tutorial: https://www.youtube.com/watch?v=vJNVramny9k by Dev Ed*/

@@ -2,6 +2,7 @@
     background-color: #E9E9E9;
     display:inline-block;
     padding-top: 10vh;
+    min-height: 75vh;
     width: 100vw;
 }
 
@@ -19,7 +20,7 @@
 .summary {
     justify-content: center;
     text-align: center;
-    animation: slidein 1s ease forwards 0s;
+    animation: slidein 0.5s ease forwards 0s;
 }
 
 .summary > img {
@@ -28,7 +29,7 @@
     height: 200px;
     border-radius: 50%;
     opacity: 0;
-    animation: showup 1s ease forwards 2.5s;
+    animation: showup 0.5s ease forwards 2s;
 }
 
 .contact-list > li {
@@ -42,7 +43,7 @@
     font-family: 'Cookie', cursive;
     font-size: 3em;
     opacity: 0%;
-    animation: showup 1s ease forwards 1.5s;
+    animation: showup 1s ease forwards 1s;
 }
 
 .contact-me-col-left {

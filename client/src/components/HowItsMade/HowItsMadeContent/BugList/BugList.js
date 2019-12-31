@@ -4,7 +4,7 @@ import './BugList.css'
 class BugList extends React.Component {
     render() {
         return(
-            <div className="bug-section">
+            <div className="bug-section" id="bugs">
                 <h1><code>{'<h1> '}</code>Bug List<code>{' </h1>'}</code></h1>
                 <ul className="bug-list">
 

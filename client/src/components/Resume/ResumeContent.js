@@ -9,9 +9,9 @@ function ResumeContent() {
                 <h1 className="name tnr">Carlos Carrasquillo</h1>
                 <div className="entry">
                     <h2 className="info-content tnr">Phone: (787) 668-8096</h2>
-                    <div className="resume-bullet"></div>
+                    <div className="dotted-bullet"></div>
                     <h2 className="info-content tnr">Email: c.carrasquillo@ufl.edu</h2>
-                    <div className="resume-bullet"></div>
+                    <div className="dotted-bullet"></div>
                     <h2 className="info-content tnr">Domain: http://www.CarlosCarras.com</h2>
                 </div>
             </div>
@@ -37,13 +37,13 @@ function ResumeContent() {
                     </div>
                     <div className="support-text tnr">Current GPA: 3.7/4.0</div>
                     <br/>
-                    <div className="entry resume-ul">
+                    <div className="entry course-list-ul">
                         <li className="entry-name tnr">Bachelor of Science,&nbsp;
                             <span className="italic-text tnr">Mechanical Engineering</span>
                         </li>
                         <div className="entry-date bold-text tnr">Expected May 2021</div>
                     </div>
-                    <div className="entry resume-ul">
+                    <div className="entry course-list-ul">
                         <li className="entry-name tnr">Bachelor of Science,&nbsp;
                             <span className="italic-text tnr">Computer Engineering</span>
                         </li>
@@ -73,34 +73,30 @@ function ResumeContent() {
                     </div>
                     <br/>
                     <div className="row">
-                        <div className="column">
-                            <div className="resume-ul entry">
-                                <span className="resume-text">
-                                    <li className="tnr">EML4312: Control of Mechanical Systems</li>
-                                    <li className="tnr">EML3005:  Mechanical Design 1</li>
-                                    <li className="tnr">EML3100:  Thermodynamics</li>
-                                    <li className="tnr">EGM3401:  Dynamics</li>
-                                    <li className="tnr">EGM3530:  Mechanics of Materials</li>
-                                    <li className="tnr">EML2023:  Computer-Aided Design using SolidWorks</li>
-                                    <li className="tnr">EGM2322L: Design and Manufacturing Laboratory</li>
-                                    <li className="tnr">EGM3343:  Numerical Methods using MATLAB</li>
-                                    <li className="tnr">EML3301C: Mechanics of Materials Laboratory</li>
-                                </span>
-                            </div>
+                        <div className="course-list-ul entry">
+                            <span className="resume-text">
+                                <li className="tnr">EML4312: Control of Mechanical Systems</li>
+                                <li className="tnr">EML3005:  Mechanical Design 1</li>
+                                <li className="tnr">EML3100:  Thermodynamics</li>
+                                <li className="tnr">EGM3401:  Dynamics</li>
+                                <li className="tnr">EGM3530:  Mechanics of Materials</li>
+                                <li className="tnr">EML2023:  Computer-Aided Design using SolidWorks</li>
+                                <li className="tnr">EGM2322L: Design and Manufacturing Laboratory</li>
+                                <li className="tnr">EGM3343:  Numerical Methods using MATLAB</li>
+                                <li className="tnr">EML3301C: Mechanics of Materials Laboratory</li>
+                            </span>
                         </div>
-                        <div className="column">
-                            <div className="resume-ul">
-                                <span className="resume-text">
-                                    <li className="tnr">EEL3111C: Circuits 1</li>
-                                    <li className="tnr">EEL3701C: Digital Logic and Computer Systems</li>
-                                    <li className="tnr">CDA3101:  Computer Organization using ARM</li>
-                                    <li className="tnr">COP3530:  Data Structures and Algorithms using C++</li>
-                                    <li className="tnr">EEL3135:  Introduction to Signals and Systems</li>
-                                    <li className="tnr">EEE4773:  Machine Learning using Python</li>
-                                    <li className="tnr">EEL3744C: Microprocessor Applications using C</li>
-                                    <li className="tnr">CEN3031:  Software Engineering</li>
-                                </span>
-                            </div>
+                        <div className="course-list-ul">
+                            <span className="resume-text">
+                                <li className="tnr">EEL3111C: Circuits 1</li>
+                                <li className="tnr">EEL3701C: Digital Logic and Computer Systems</li>
+                                <li className="tnr">CDA3101:  Computer Organization using ARM</li>
+                                <li className="tnr">COP3530:  Data Structures and Algorithms using C++</li>
+                                <li className="tnr">EEL3135:  Introduction to Signals and Systems</li>
+                                <li className="tnr">EEE4773:  Machine Learning using Python</li>
+                                <li className="tnr">EEL3744C: Microprocessor Applications using C</li>
+                                <li className="tnr">CEN3031:  Software Engineering</li>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -127,7 +123,7 @@ function ResumeContent() {
                         </div>
                     </div>
                     <br/>
-                    <div className="entry resume-ul">
+                    <div className="entry course-list-ul">
                         <li className="entry-name tnr">
                             Supervising manufacturing process of design teams, providing design and manufacturing guidance to course students,
                             grading design reports, completing TA projects to enhance the lab. SolidWorks is heavily used for all design processes.
@@ -148,7 +144,7 @@ function ResumeContent() {
                         </div>
                     </div>
                     <br/>
-                    <div className="entry resume-ul">
+                    <div className="entry course-list-ul">
                         <li className="entry-name tnr">
                             Developing code for a Cube-Sat navigation loop using ROS, C++ and Python. Communicating with radios to transmit signals
                             from ground stations.
@@ -168,7 +164,7 @@ function ResumeContent() {
                         </div>
                     </div>
                     <br/>
-                    <div className="entry resume-ul">
+                    <div className="entry course-list-ul">
                         <li className="entry-name tnr">
                             Helped students write code for optimization, Fourier analysis, regression, interpolation, numerical
                             integration/derivation, etc.
@@ -188,7 +184,7 @@ function ResumeContent() {
                         </div>
                     </div>
                     <br/>
-                    <div className="entry resume-ul">
+                    <div className="entry course-list-ul">
                         <li className="entry-name tnr">
                             Handled inventory, gave DIY recommendations, mixed paint, assisted fellow associates in hardware.
                         </li>
@@ -210,7 +206,7 @@ function ResumeContent() {
                         </div>
                     </div>
                     <br/>
-                    <div className="entry resume-ul">
+                    <div className="entry course-list-ul">
                         <li className="entry-name tnr">
                             Designing and manufacturing a reflector telescope utilizing Solidworks.
                         </li>
@@ -232,7 +228,7 @@ function ResumeContent() {
                 </div>
                 <div className="divider-line"></div>
                 <div className="section-content">
-                    <div className="resume-ul">
+                    <div className="course-list-ul">
                         <li className="entry-name tnr">
                             <span className="italic-text tnr">Programming Languages</span>: &nbsp;
                                 {/* Java */}

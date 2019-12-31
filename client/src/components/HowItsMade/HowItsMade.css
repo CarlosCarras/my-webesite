@@ -1,7 +1,8 @@
 .howitsmade-container {
     background-color: #E9E9E9;
     display:inline-block;
-    width: 100%;
+    min-height: 75vh;
+    width: 100vw;
 }
 
 .howitsmade-container > h1 {
@@ -25,4 +26,12 @@
 
 .github-repo-logo-color {
     fill: #ffffff;
+}
+
+
+.howitsmade-scroll-link {
+    color: #007bff;
+}
+.howitsmade-scroll-link:hover {
+    color: #0056b3;
 }

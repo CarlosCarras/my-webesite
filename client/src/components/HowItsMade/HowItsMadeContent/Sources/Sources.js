@@ -4,7 +4,7 @@ import './Sources.css'
 class Sources extends React.Component {
     render() {
         return(
-            <div className="sources-section">
+            <div className="sources-section" id="sources">
                 <h1><code>{'<h1> '}</code>Sources<code>{' </h1>'}</code></h1>
                 <ul className="source-list">
 
@@ -61,7 +61,13 @@ class Sources extends React.Component {
                     <li>Rishabh. “Large Pressable CSS Button.”<span className="italic-text">CSSDeck</span>, 2019, &nbsp;
                         <a href="http://www.cssdeck.com/labs/large-pressable-css-button" target="_blank" rel = "noopener noreferrer">cssdeck.com/labs/large-pressable-css-button</a>.
                     </li><br/>
-                    
+
+                    <span style={{color: "green"}}>Description:&nbsp;</span>
+                    <span style={{color: "#777777"}}>The ordered list in the ~/Projects directory.</span><br/>
+                    <li>Sullivan, Erin  E. “Gradient Ordered List.”<span className="italic-text">CodePen</span>, 15 May 2019, &nbsp;
+                        <a href="http://codepen.io/erinesullivan/pen/qGrdGV" target="_blank" rel = "noopener noreferrer">codepen.io/erinesullivan/pen/qGrdGV</a>.
+                    </li><br/>
+
                 </ul>
             </div>
         )

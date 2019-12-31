@@ -9,12 +9,13 @@ class NavBar extends React.Component {
             <Navbar variant="dark" className="navy-bg">
                 <Navbar.Brand href="/Home">C/C</Navbar.Brand>
                 <Nav className="mr-auto ">
-                    <Nav.Link href="/Home">About Me</Nav.Link>
+                    <Nav.Link href="/Home#AboutMe">About Me</Nav.Link>
                     <Nav.Link href="/Resume">R&eacute;sum&eacute;</Nav.Link>
                     <Nav.Link href="/ContactMe">Contact Me</Nav.Link>
                     <Nav.Link href="/Gallery">Gallery</Nav.Link>
-                    <Nav.Link href="/FAQ">FAQ</Nav.Link>
                     <Nav.Link href="/HowItsMade">How It's Made</Nav.Link>
+                    <Nav.Link href="/Projects"><span className="low-importance-link">Projects</span></Nav.Link>
+                    <Nav.Link href="/FAQ"><span className="low-importance-link">FAQ</span></Nav.Link>
                 </Nav>
                 {/*
                 <Form inline>

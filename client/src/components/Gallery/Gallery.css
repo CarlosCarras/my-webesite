@@ -1,6 +1,8 @@
 .gallery-page-container {
     padding: 10vh 0 10vh 0;
-    background-color: #222;
+    background-color: #000;
+    min-height: 75vh;
+    width: 100vw;
 }
 .gallery-page-container > h1 {
     color: white;

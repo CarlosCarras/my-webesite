@@ -1,0 +1,12 @@
+.project-page-container {
+    padding: 10vh 0 10vh 0;
+    background-color: white;
+    min-height: 75vh;
+    width: 100vw;
+}
+.project-page-container > h1 {
+    color: black;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 5vh;
+}

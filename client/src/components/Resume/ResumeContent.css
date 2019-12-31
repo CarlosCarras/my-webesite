@@ -58,11 +58,7 @@
     font-size: 1em;
 }
 
-.unordered-list {
-    justify-content: left;
-}
-
-.resume-bullet {
+.dotted-bullet {
     height: 0.25em;
     width: 0.25em;
     transform: translate(0, 200%);
@@ -76,12 +72,12 @@
     border-bottom: 2px solid navy;
 }
 
-.resume-ul li {
+.course-list-ul li {
     list-style-type: none;
     padding-left: 50px;
 }
 
-.resume-ul li::before {
+.course-list-ul li::before {
     content: "\2013";
     color: black;
     font-weight: bold;

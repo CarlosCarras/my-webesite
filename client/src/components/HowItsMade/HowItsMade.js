@@ -7,6 +7,7 @@ import CodingProcess from './HowItsMadeContent/CodingProcess/CodingProcess';
 import Deploying from './HowItsMadeContent/Deploying/Deploying';
 import Sources from './HowItsMadeContent/Sources/Sources'
 import BugList from './HowItsMadeContent/BugList/BugList'
+import { Link as ScrollLink } from "react-scroll";
 import './HowItsMade.css';
 
 class HowItsMade extends React.Component {
@@ -21,8 +22,17 @@ class HowItsMade extends React.Component {
                 </p>
                 <p> All in all, this was a highly valuable learning experience for me. I want others to benefit from the
                     this little experiment as well, so I have included the source code to this website below. I have also
-                    included a list of bugs at the end of this page. If anyone finds a new bug and/or a bug-fix, please
+                    included a &nbsp;
+                    <ScrollLink to="bug-section" spy={true} smooth={true} offset={-70} duration= {700}>
+                        <span className="howitsmade-scroll-link">list of bugs</span>
+                    </ScrollLink>
+                    &nbsp; at the end of this page. If anyone finds a new bug and/or a bug-fix, please
                     email me personally or via the contact form on the <a href="./../ContactMe">Contact Me</a> page.
+                    Finally, I have included a useful list of &nbsp;
+                    <ScrollLink to="sources-section" spy={true} smooth={true} offset={-70} duration= {700}>
+                        <span className="howitsmade-scroll-link">sources</span>
+                    </ScrollLink>
+                    &nbsp; that helped me with the creation of this site at the bottom of this page.
                 </p>
                 <p> Thank you for checking out my site! Follow me on GitHub for more small-scale projects.
                 </p>

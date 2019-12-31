@@ -1,6 +1,8 @@
 .resume-page-container {
     padding: 10vh 0 10vh 0;
     background-image: url("../../assets/resumeWallpaper.jpg");
+    min-height: 75vh;
+    width: 100vw;
 }
 .resume-page-container > h1 {
     color: white;
@@ -14,6 +16,7 @@
     position: relative;
     display: inline-block;
     width: 65vw;
+    max-width: 1024px;
     background: rgba(255,255,255,0.8);
     left: 50%;
     bottom: 0%;
