@@ -13,9 +13,10 @@ import MountingBracket from "./components/Projects/ProjectListings/MountingBrack
 import PCBuild from "./components/Projects/ProjectListings/PCBuild"
 import FourYearPlan from "./components/FourYearPlan/FourYearPlan"
 import Footer from "./components/Footer/Footer"
-import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/Theme.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+const Alert = require('bootstrap');
 
 const App = () => {
   return (
