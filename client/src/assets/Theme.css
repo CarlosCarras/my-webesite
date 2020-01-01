@@ -5,10 +5,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Saira&display=swap');
 
 /* CSS Sheets */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css');                         /* for the FAQ accordion*/
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 /* CSS reset */
 * {
@@ -87,6 +89,10 @@
 
 .two-col-format-column {
     flex: 50%;
+}
+
+.three-col-format-column {
+    flex: 33%;
 }
 
 .text-indent {

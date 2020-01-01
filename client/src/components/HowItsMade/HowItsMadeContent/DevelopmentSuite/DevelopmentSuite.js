@@ -1,11 +1,11 @@
 import React from 'react';
 import './DevelopmentSuite.css';
 
-const JavaScriptLogo = require('./../../../../assets/javascript.png'),
-      ReactLogo      = require('./../../../../assets/react.png'),
-      HtmlLogo       = require('./../../../../assets/html.png'),
-      CSSLogo        = require('./../../../../assets/css.png'),
-      NodeJsLogo     = require('./../../../../assets/nodejs.png');
+const JavaScriptLogo = require('./../../../../assets/logo-javascript.png'),
+      ReactLogo      = require('./../../../../assets/logo-react.png'),
+      HtmlLogo       = require('./../../../../assets/logo-html.png'),
+      CSSLogo        = require('./../../../../assets/logo-css.png'),
+      NodeJsLogo     = require('./../../../../assets/logo-nodejs.png');
 
 function DevelopmentSuite() {
     return (

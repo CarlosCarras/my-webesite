@@ -1,12 +1,9 @@
 import React from 'react';
 import FourYearPlanContent from './FourYearPlanContent';
-import Draggable from './../Draggable/Draggable';
-import Resume from './../../assets/resume.pdf';
-import {Button} from 'antd';
 import 'antd/dist/antd.css';
 import './FourYearPlan.css';
 
-class Gallery extends React.Component {
+class FourYearPlan extends React.Component {
 
     render() {
         return(
@@ -20,4 +17,4 @@ class Gallery extends React.Component {
     }
 }
 
-export default Gallery
+export default FourYearPlan

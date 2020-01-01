@@ -3,7 +3,7 @@ import './Home.css';
 import ReactTooltip from 'react-tooltip';
 import { Link as ScrollLink } from "react-scroll";
 
-const ProfilePic = require('./../../assets/profile_picture.jpeg')
+const ProfilePic = require('./../../assets/profile-picture.jpeg')
 
 function Home() {
     return (

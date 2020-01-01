@@ -1,19 +1,19 @@
 import React from 'react';
 import ResumeContent from './ResumeContent';
 import Draggable from './../Draggable/Draggable';
-import Resume from './../../assets/resume.pdf';
+import ResumeFile from './../../assets/pdf-resume.pdf';
 import {Button} from 'antd';
 import 'antd/dist/antd.css';
 import './Resume.css';
 
-class Gallery extends React.Component {
+class Resume extends React.Component {
 
     render() {
         return(
           <div className="resume-page-container parallax">
               <h1>R&eacute;sum&eacute;</h1>
               <div className="button-group">
-                  <a href={Resume} target="_blank" rel="noopener noreferrer">
+                  <a href={ResumeFile} target="_blank" rel="noopener noreferrer">
                       <Button type="submit" shape="round" icon="download" size="large" ghost="true">
                           Download
                       </Button>
@@ -42,4 +42,4 @@ class Gallery extends React.Component {
     }
 }
 
-export default Gallery
+export default Resume

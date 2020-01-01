@@ -286,8 +286,11 @@ function ResumeContent() {
                                 <span data-tip data-for='solidworks-certification-info'><span className="tnr">SolidWorks,&nbsp;</span></span>
                                 <ReactTooltip id='solidworks-certification-info' type='info' effect='solid' place={'top'}>Associate</ReactTooltip>
                                 {/* Amateur Radio Certification */}
-                                <span data-tip data-for='amateur-radio-info'><span className="tnr">Amateur Radio</span></span>
+                                <span data-tip data-for='amateur-radio-info'><span className="tnr">Amateur Radio,&nbsp;</span></span>
                                 <ReactTooltip id='amateur-radio-info' type='info' effect='solid' place={'top'}>Technician</ReactTooltip>
+                                {/* Nvidia Computer Vision Certification */}
+                                <span data-tip data-for='nvidia-info'><span className="tnr">Nvidia Computer Vision</span></span>
+                                <ReactTooltip id='nvidia-info' type='info' effect='solid' place={'top'}>Certificate of Competency</ReactTooltip>
                         </li>
                         <li className="entry-name tnr">
                             <span className="italic-text tnr">Development Processes</span>: &nbsp;

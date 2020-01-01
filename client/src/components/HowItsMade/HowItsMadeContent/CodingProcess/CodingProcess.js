@@ -1,10 +1,10 @@
 import React from 'react';
 import './CodingProcess.css';
 
-const Coding    = require('./../../../../assets/coding.png'),
-      Debugging = require('./../../../../assets/debugging.png'),
-      SettingUp = require('./../../../../assets/settingup.png'),
-      Testing   = require('./../../../../assets/testing.png');
+const Coding    = require('./../../../../assets/process-coding.png'),
+      Debugging = require('./../../../../assets/process-debugging.png'),
+      SettingUp = require('./../../../../assets/process-setting_up.png'),
+      Testing   = require('./../../../../assets/process-testing.png');
 
 function CodingProcess() {
     return (

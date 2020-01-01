@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactTooltip from 'react-tooltip';
 import './FourYearPlanContent.css'
 import './../Resume/ResumeContent.css'
 

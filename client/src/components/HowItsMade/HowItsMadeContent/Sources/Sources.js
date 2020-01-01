@@ -68,6 +68,15 @@ class Sources extends React.Component {
                         <a href="http://codepen.io/erinesullivan/pen/qGrdGV" target="_blank" rel = "noopener noreferrer">codepen.io/erinesullivan/pen/qGrdGV</a>.
                     </li><br/>
 
+                    <span style={{color: "green"}}>Description:&nbsp;</span>
+                    <span style={{color: "#777777"}}>The timeline in the ~/Projects directory.</span><br/>
+                    <li>Houser, Alan. “CSS Timeline for Giggles.” <span className="italic-text">CodePen</span>, 24 Jan. 2018, &nbsp;
+                        <a href="http://codepen.io/alanhouser/pen/aErrQJ" target="_blank" rel = "noopener noreferrer">codepen.io/alanhouser/pen/aErrQJ</a>.
+                    </li><br/>
+
+                    <span style={{color: "green"}}>Other:&nbsp;</span>
+                    <span style={{color: "#777777"}}>React Boostrap, Ant Design, React-Photo-Gallery.</span><br/>
+
                 </ul>
             </div>
         )

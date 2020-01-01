@@ -1,8 +1,8 @@
 import React from 'react';
 import './WireframeDesign.css';
 
-const HomescreenWireframe    = require('./../../../../assets/homescreen_wireframe.png'),
-      ResumeWireframe        = require('./../../../../assets/resume_wireframe.png');
+const HomescreenWireframe    = require('./../../../../assets/wireframe-home.png'),
+      ResumeWireframe        = require('./../../../../assets/wireframe-resume.png');
 
 function WireframeDesign() {
     return (

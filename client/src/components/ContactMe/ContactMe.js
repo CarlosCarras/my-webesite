@@ -8,7 +8,7 @@ const name       = "Carlos Carrasquillo",
                     "Dept. of Computer and Electrical Engineering"],
       phone      = "(787) 668-8096",
       email      = "c.carrasquillo@ufl.edu",
-      ProfilePic = require('./../../assets/profile_picture.jpeg');
+      ProfilePic = require('./../../assets/profile-picture1.JPG');
 
 
 class ContactMe extends React.Component {
