@@ -50,12 +50,14 @@
     position: relative;
     text-align: left;
     margin-top: 25vh;
+    /*
     opacity: 0%;
     animation: showup 1s ease forwards 5.2s;
     -o-animation: showup 1s ease forwards 5.2s;
     -ms-animation: showup 1s ease forwards 5.2s;
     -moz-animation: showup 1s ease forwards 5.2s;
     -webkit-animation: showup 1s ease forwards 5.2s;
+    */
 }
 
 .section2 {
@@ -302,12 +304,14 @@
 }
 
 #title-caption:first-of-type {
+    /*
     opacity: 0%;
     animation: showup 1s ease forwards 3.5s;
     -o-animation: showup 1s ease forwards 3.5s;
     -ms-animation: showup 1s ease forwards 3.5s;
     -moz-animation: showup 1s ease forwards 3.5s;
     -webkit-animation: showup 1s ease forwards 3.5s;
+    */
 }
 
 
@@ -319,6 +323,7 @@
     -ms-animation: slidein 3s ease forwards 2.5s;
     -moz-animation: slidein 3s ease forwards 2.5s;
     -webkit-animation: slidein 3s ease forwards 2.5s;
+
 }
 
 #degree-list {
