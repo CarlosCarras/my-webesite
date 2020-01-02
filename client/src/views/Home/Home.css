@@ -52,6 +52,10 @@
     margin-top: 25vh;
     opacity: 0%;
     animation: showup 1s ease forwards 5.2s;
+    -o-animation: showup 1s ease forwards 5.2s;
+    -ms-animation: showup 1s ease forwards 5.2s;
+    -moz-animation: showup 1s ease forwards 5.2s;
+    -webkit-animation: showup 1s ease forwards 5.2s;
 }
 
 .section2 {
@@ -104,97 +108,173 @@
 /* Created Using Tutorial: https://www.youtube.com/watch?v=vJNVramny9k by Dev Ed*/
 #page-title {
     animation: fill 1s ease forwards 2.5s;
+    -o-animation: fill 1s ease forwards 2.5s;
+    -ms-animation: fill 1s ease forwards 2.5s;
+    -moz-animation: fill 1s ease forwards 2.5s;
+    -webkit-animation: fill 1s ease forwards 2.5s;
 }
 
 #page-title path:nth-child(1){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards;
+    -o-animation: line-anim 2s ease forwards;
+    -ms-animation: line-anim 2s ease forwards;
+    -moz-animation: line-anim 2s ease forwards;
+    -webkit-animation: line-anim 2s ease forwards;
 }
 #page-title path:nth-child(2){
     stroke-dasharray: 1000px;
     stroke-dashoffset: 1000px;
     animation: line-anim 2s ease forwards 0.1s;
+    -o-animation: line-anim 2s ease forwards 0.1s;
+    -ms-animation: line-anim 2s ease forwards 0.1s;
+    -moz-animation: line-anim 2s ease forwards 0.1s;
+    -webkit-animation: line-anim 2s ease forwards 0.1s;
 }
 #page-title path:nth-child(3){
     stroke-dasharray: 1000px;
     stroke-dashoffset: 1000px;
     animation: line-anim 2s ease forwards 0.2s;
+    -o-animation: line-anim 2s ease forwards 0.2s;
+    -ms-animation: line-anim 2s ease forwards 0.2s;
+    -moz-animation: line-anim 2s ease forwards 0.2s;
+    -webkit-animation: line-anim 2s ease forwards 0.2s;
 }
 #page-title path:nth-child(4){
     stroke-dasharray: 1000px;
     stroke-dashoffset: 1000px;
     animation: line-anim 2s ease forwards 0.3s;
+    -o-animation: line-anim 2s ease forwards 0.3s;
+    -ms-animation: line-anim 2s ease forwards 0.3s;
+    -moz-animation: line-anim 2s ease forwards 0.3s;
+    -webkit-animation: line-anim 2s ease forwards 0.3s;
 }
 #page-title path:nth-child(5){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 0.4s;
+    -o-animation: line-anim 2s ease forwards 0.4s;
+    -ms-animation: line-anim 2s ease forwards 0.4s;
+    -moz-animation: line-anim 2s ease forwards 0.4s;
+    -webkit-animation: line-anim 2s ease forwards 0.4s;
 }
 #page-title path:nth-child(6){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 0.5s;
+    -o-animation: line-anim 2s ease forwards 0.5s;
+    -ms-animation: line-anim 2s ease forwards 0.5s;
+    -moz-animation: line-anim 2s ease forwards 0.5s;
+    -webkit-animation: line-anim 2s ease forwards 0.5s;
 }
 #page-title path:nth-child(7){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 0.6s;
+    -o-animation: line-anim 2s ease forwards 0.6s;
+    -ms-animation: line-anim 2s ease forwards 0.6s;
+    -moz-animation: line-anim 2s ease forwards 0.6s;
+    -webkit-animation: line-anim 2s ease forwards 0.6s;
 }
 #page-title path:nth-child(8){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 0.7s;
+    -o-animation: line-anim 2s ease forwards 0.7s;
+    -ms-animation: line-anim 2s ease forwards 0.7s;
+    -moz-animation: line-anim 2s ease forwards 0.7s;
+    -webkit-animation: line-anim 2s ease forwards 0.7s;
 }
 #page-title path:nth-child(9){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 0.8s;
+    -o-animation: line-anim 2s ease forwards 0.8s;
+    -ms-animation: line-anim 2s ease forwards 0.8s;
+    -moz-animation: line-anim 2s ease forwards 0.8s;
+    -webkit-animation: line-anim 2s ease forwards 0.8s;
 }
 #page-title path:nth-child(10){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 0.9s;
+    -o-animation: line-anim 2s ease forwards 0.9s;
+    -ms-animation: line-anim 2s ease forwards 0.9s;
+    -moz-animation: line-anim 2s ease forwards 0.9s;
+    -webkit-animation: line-anim 2s ease forwards 0.9s;
 }
 #page-title path:nth-child(11){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 1.0s;
+    -o-animation: line-anim 2s ease forwards 1.0s;
+    -ms-animation: line-anim 2s ease forwards 1.0s;
+    -moz-animation: line-anim 2s ease forwards 1.0s;
+    -webkit-animation: line-anim 2s ease forwards 1.0s;
 }
 #page-title path:nth-child(12){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 1.1s;
+    -o-animation: line-anim 2s ease forwards 1.1s;
+    -ms-animation: line-anim 2s ease forwards 1.1s;
+    -moz-animation: line-anim 2s ease forwards 1.1s;
+    -webkit-animation: line-anim 2s ease forwards 1.1s;
 }
 #page-title path:nth-child(13){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 1.2s;
+    -o-animation: line-anim 2s ease forwards 1.2s;
+    -ms-animation: line-anim 2s ease forwards 1.2s;
+    -moz-animation: line-anim 2s ease forwards 1.2s;
+    -webkit-animation: line-anim 2s ease forwards 1.2s;
 }
 #page-title path:nth-child(14){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 1.3s;
+    -o-animation: line-anim 2s ease forwards 1.3s;
+    -ms-animation: line-anim 2s ease forwards 1.3s;
+    -moz-animation: line-anim 2s ease forwards 1.3s;
+    -webkit-animation: line-anim 2s ease forwards 1.3s;
 }
 #page-title path:nth-child(15){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 1.4s;
+    -o-animation: line-anim 2s ease forwards 1.4s;
+    -ms-animation: line-anim 2s ease forwards 1.4s;
+    -moz-animation: line-anim 2s ease forwards 1.4s;
+    -webkit-animation: line-anim 2s ease forwards 1.4s;
 }
 #page-title path:nth-child(16){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 1.5s;
+    -o-animation: line-anim 2s ease forwards 1.5s;
+    -ms-animation: line-anim 2s ease forwards 1.5s;
+    -moz-animation: line-anim 2s ease forwards 1.5s;
+    -webkit-animation: line-anim 2s ease forwards 1.5s;
 }
 #page-title path:nth-child(17){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 1.6s;
+    -o-animation: line-anim 2s ease forwards 1.6s;
+    -ms-animation: line-anim 2s ease forwards 1.6s;
+    -moz-animation: line-anim 2s ease forwards 1.6s;
+    -webkit-animation: line-anim 2s ease forwards 1.6s;
 }
 #page-title path:nth-child(18){
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 1.7s;
+    -o-animation: line-anim 2s ease forwards 1.7s;
+    -ms-animation: line-anim 2s ease forwards 1.7s;
+    -moz-animation: line-anim 2s ease forwards 1.7s;
+    -webkit-animation: line-anim 2s ease forwards 1.7s;
 }
 
 @keyframes line-anim {
@@ -224,6 +304,10 @@
 #title-caption:first-of-type {
     opacity: 0%;
     animation: showup 1s ease forwards 3.5s;
+    -o-animation: showup 1s ease forwards 3.5s;
+    -ms-animation: showup 1s ease forwards 3.5s;
+    -moz-animation: showup 1s ease forwards 3.5s;
+    -webkit-animation: showup 1s ease forwards 3.5s;
 }
 
 
@@ -231,6 +315,10 @@
     color: orange;
     margin-left:-355px;
     animation: slidein 3s ease forwards 2.5s;
+    -o-animation: slidein 3s ease forwards 2.5s;
+    -ms-animation: slidein 3s ease forwards 2.5s;
+    -moz-animation: slidein 3s ease forwards 2.5s;
+    -webkit-animation: slidein 3s ease forwards 2.5s;
 }
 
 #degree-list {
@@ -253,25 +341,89 @@
   left: 50%;
   z-index: 2;
   display: inline-block;
-  -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
   color: #fff;
   transition: opacity .3s;
+  -o-transition: opacity .3s;
+  -ms-transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  -webkit-transition: opacity .3s;
   width: 24px;
   height: 24px;
   margin-left: -12px;
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  -webkit-animation: arrow-anim 2s infinite;
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
   animation: arrow-anim 2s infinite;
+  -o-animation: arrow-anim 2s infinite;
+  -ms-animation: arrow-anim 2s infinite;
+  -moz-animation: arrow-anim 2s infinite;
+  -webkit-animation: arrow-anim 2s infinite;
   box-sizing: border-box;
 }
 .scroll-arrow a:hover {
   opacity: .5;
   cursor: pointer;
 }
+
+/********************************* arrow-anim *********************************/
+
+@keyframes arrow-anim {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+}
+
+@-o-keyframes arrow-anim {
+  0% {
+    -o-transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    -o-transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    -o-transform: rotate(-45deg) translate(0, 0);
+  }
+}
+
+@-ms-keyframes arrow-anim {
+  0% {
+    -ms-transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    -ms-transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    -ms-transform: rotate(-45deg) translate(0, 0);
+  }
+}
+
+@-moz-keyframes arrow-anim {
+  0% {
+    -moz-transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    -moz-transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    -moz-transform: rotate(-45deg) translate(0, 0);
+  }
+}
+
 
 @-webkit-keyframes arrow-anim {
   0% {
@@ -282,17 +434,6 @@
   }
   40% {
     -webkit-transform: rotate(-45deg) translate(0, 0);
-  }
-}
-@keyframes arrow-anim {
-  0% {
-    transform: rotate(-45deg) translate(0, 0);
-  }
-  20% {
-    transform: rotate(-45deg) translate(-10px, 10px);
-  }
-  40% {
-    transform: rotate(-45deg) translate(0, 0);
   }
 }
 

@@ -24,9 +24,17 @@
 .accordion-item {
     background-color: #283042;
     border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
     margin-bottom: 1rem;
     padding: 1rem;
     box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 .accordion-link {
@@ -60,6 +68,9 @@
     position: relative;
     background-color: #212838;
     transition: max-height 0.65s;
+    -o-transition: max-height 0.65s;
+    -ms-transition: max-height 0.65s;
+    -moz-transition: max-height 0.65s;
     -webkit-transition: max-height 0.65s;
 }
 
@@ -72,6 +83,9 @@
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
 

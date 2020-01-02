@@ -21,6 +21,10 @@
     justify-content: center;
     text-align: center;
     animation: slidein 0.5s ease forwards 0s;
+    -o-animation: slidein 0.5s ease forwards 0s;
+    -ms-animation: slidein 0.5s ease forwards 0s;
+    -moz-animation: slidein 0.5s ease forwards 0s;
+    -webkit-animation: slidein 0.5s ease forwards 0s;
 }
 
 .summary > img {
@@ -30,6 +34,10 @@
     border-radius: 50%;
     opacity: 0;
     animation: showup 0.5s ease forwards 2s;
+    -o-animation: showup 0.5s ease forwards 2s;
+    -ms-animation: showup 0.5s ease forwards 2s;
+    -moz-animation: showup 0.5s ease forwards 2s;
+    -webkit-animation: showup 0.5s ease forwards 2s;
 }
 
 .contact-list > li {
@@ -37,6 +45,10 @@
     list-style-type: none;
     opacity: 0;
     animation: showup 0.2s ease forwards 0.1s;
+    -o-animation: showup 0.2s ease forwards 0.1s;
+    -ms-animation: showup 0.2s ease forwards 0.1s;
+    -moz-animation: showup 0.2s ease forwards 0.1s;
+    -webkit-animation: showup 0.2s ease forwards 0.1s;
 }
 
 .signature {
@@ -44,6 +56,10 @@
     font-size: 3em;
     opacity: 0%;
     animation: showup 1s ease forwards 1s;
+    -o-animation: showup 1s ease forwards 1s;
+    -ms-animation: showup 1s ease forwards 1s;
+    -moz-animation: showup 1s ease forwards 1s;
+    -webkit-animation: showup 1s ease forwards 1s;
 }
 
 .contact-me-col-left {
