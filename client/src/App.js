@@ -14,7 +14,7 @@ import PCBuild from "./components/Projects/ProjectListings/PCBuild"
 import FourYearPlan from "./components/FourYearPlan/FourYearPlan"
 import Footer from "./components/Footer/Footer"
 import './assets/Theme.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
