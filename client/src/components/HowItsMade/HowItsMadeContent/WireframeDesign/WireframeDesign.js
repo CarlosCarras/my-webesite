@@ -4,16 +4,9 @@ import './WireframeDesign.css';
 const HomescreenWireframe    = require('./../../../../assets/wireframe-home.png'),
       ResumeWireframe        = require('./../../../../assets/wireframe-resume.png');
 
-function WireframeDesign() {
-    return (
-        <div className="row" style={{paddingBottom: "100px"}}>
-            <div className="two-col-format-column wireframe-design-col-left">
-                <p>
-                    Next, to imagine what the end result might look like, I drew up a couple of wireframes using Microsoft PowerPoint and Notability.
-                    These wireframes were medium-fidelity, which means that, while better than a hand-drawn concept, all dimensions were not final.
-                    The wireframes served as a blueprint from which to base the later HTML and CSS design off of.
-                </p>
-            </div>
+class WireframeDesign extends React.Component {
+    getImage(){
+        return(
             <div className="two-col-format-column" style={{padding: "auto"}}>
                 <div className="wireframe-design-container">
                     <div className="wireframe">
@@ -24,8 +17,39 @@ function WireframeDesign() {
                     </div>
                 </div>
             </div>
-        </div>
-    );
+        )
+    }
+
+    getText(){
+        return (
+            <div className="two-col-format-column wireframe-design-col-left">
+                <p>
+                    Next, to imagine what the end result might look like, I drew up a couple of wireframes using Microsoft PowerPoint and Notability.
+                    These wireframes were medium-fidelity, which means that, while better than a hand-drawn concept, all dimensions were not final.
+                    The wireframes served as a blueprint from which to base the later HTML and CSS design off of.
+                </p>
+            </div>
+        )
+    }
+
+    render() {
+        if (window.screen.width < 800) {
+            return (
+                <div className="row" style={{paddingBottom: "100px"}}>
+                    {this.getImage()}
+                    {this.getText()}
+                </div>
+            )
+        }
+        else {
+            return (
+                <div className="row" style={{paddingBottom: "100px"}}>
+                    {this.getText()}
+                    {this.getImage()}
+                </div>
+            )
+        }
+    }
 }
 
 export default WireframeDesign;

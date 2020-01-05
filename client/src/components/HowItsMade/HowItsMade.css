@@ -3,11 +3,12 @@
     display:inline-block;
     min-height: 75vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 .howitsmade-container > h1 {
     color: black;
-    font-size: 3em;
+    font-size: 3rem;
     text-align: center;
     box-sizing: border-box;
     padding: 0 5vh 8vh 5vh;
@@ -15,7 +16,7 @@
 
 .howitsmade-container > p {
     padding: 0 8vw 0 8vw;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 .howitsmade-container > .button-group {

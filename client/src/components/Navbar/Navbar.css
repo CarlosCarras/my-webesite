@@ -1,7 +1,3 @@
-.navy-bg{
-  background-color: black;
-}
-
 .navbar-element {
   float: none;
   text-align: center;
@@ -18,10 +14,4 @@
 
 .github-logo-color:hover {
   fill: #bbbbbb;
-}
-
-@media only screen and (max-width: 900px) {
-    .low-importance-link {
-          display: none;
-    }
 }

@@ -7,11 +7,24 @@ import 'antd/dist/antd.css';
 import './Resume.css';
 
 class Resume extends React.Component {
+    getResume() {
+        if (window.screen.width < 800) {
+
+        }
+        else {
+            return (
+                <div className="paper">
+                    <ResumeContent/>
+                </div>
+            )
+        }
+    }
 
     render() {
         return(
           <div className="resume-page-container parallax">
               <h1>R&eacute;sum&eacute;</h1>
+
               <div className="button-group">
                   <a href={ResumeFile} target="_blank" rel="noopener noreferrer">
                       <Button type="submit" shape="round" icon="download" size="large" ghost="true">
@@ -19,9 +32,9 @@ class Resume extends React.Component {
                       </Button>
                   </a>
               </div>
-              <div className="paper">
-                  <ResumeContent/>
-              </div>
+
+              {this.getResume()}
+
               <Draggable x={20} y={450}>
                   {/*Note: The 'sticky' class CSS is located in '~/assets/Theme.css'*/}
                   <div className="sticky">

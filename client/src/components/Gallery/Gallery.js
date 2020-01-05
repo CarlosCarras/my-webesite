@@ -38,7 +38,7 @@ const images = [ [Longboard,   'Longboard', 'My longboard being taken apart for 
                  [PCBuild,     'Custom PC', 'A custom, liquid-cooled PC build to aid me through the remainder of my coursework.', '/Projects/PCBuild'],
                  [Drums,       'Acoustic Drumkit', 'My Gretsch drumkit with Evans heads and Sabian cymbals.', ''],
                  [HAMRadio,    'HAM Radio Practice', 'Communicating with Amateur Radio satellites over VHF and UHF.', ''],
-                 [Friends,     'Beach', 'Hanging out with some friends at Luquillo beach.', ''],
+                 [Friends,     'Beach', 'Hanging out with some friends at Luquillo Beach, PR.', ''],
                  [Family,      'Christmas', 'My family celebrating Christmas, 2019', ''],
                  [Nvidia,      'Nvidia Computer Vision Event', 'Applying machine learning principles at an Nvidia training event.', ''],
                  [Bookshelf,   'Building a Wooden Book', '... that also happens to be a bookshelf.', ''],
@@ -47,7 +47,7 @@ const images = [ [Longboard,   'Longboard', 'My longboard being taken apart for 
                  [Marilyn,     'Evening at Payne\'s Praire', 'with Marilyn.', ''],
                  [TADinner,    'Numerical Methods TA Dinner', 'Thank you Dr. Brooks!', ''],
                  [Flying,      'Flying', 'Departing from San Juan, PR to Tampa, FL.', ''],
-                 [Zipline,     'Ziplining', 'Ziplining about Torro Verde in PR.', ''],
+                 [Zipline,     'Ziplining', 'Ziplining in Toro Verde, PR.', ''],
                  [Basketball,  'We\'re Talking \'bout Practice', 'Playing basketball at UF Student Rec.', ''],
                ];
 

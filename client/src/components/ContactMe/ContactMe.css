@@ -8,7 +8,7 @@
 
 .contact-me-col-left header {
     color: black;
-    font-size: 3em;
+    font-size: 3rem;
     padding-bottom: 20px;
 }
 
@@ -59,7 +59,7 @@
 
 .signature {
     font-family: 'Cookie', cursive;
-    font-size: 3em;
+    font-size: 3rem;
     /*
     opacity: 0%;
     animation: showup 1s ease forwards 1s;

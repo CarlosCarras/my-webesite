@@ -82,8 +82,8 @@ function Home() {
 
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             My name is Carlos Carrasquillo, and I was born in Canovanas, Puerto Rico. My dad, who was a licensed recreational pilot at the time, exposed me to planes at a young age. I developed an interest
-                            for mechanical systems by learning about the intricacies of how aircraft worked. In high school, I was exposed to computer science via an introductary course, which sparked my interest in software engineering.
-                            I later enrolled into the University of Florida with the goal of pursuing Mechanical Engineering. After being inspired some Electrical Engineering classes, I picked up a second degree in Computer Engineering &nbsp;
+                            for mechanical systems by learning about the intricacies of how aircraft worked. In high school, I was exposed to computer science via an introductory course, which sparked my interest in software engineering.
+                            I later enrolled into the University of Florida with the goal of pursuing mechanical engineering. After being inspired by some electrical engineering classes, I picked up a second degree in computer engineering &nbsp;
 
                             <span data-tip data-for='dual-degree-info'>
                                 <i className="fa fa-info-circle" style={{color: 'white'}}></i>

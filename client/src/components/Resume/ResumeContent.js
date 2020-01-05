@@ -12,7 +12,7 @@ function ResumeContent() {
                     <div className="dotted-bullet"></div>
                     <h2 className="info-content tnr">Email: c.carrasquillo@ufl.edu</h2>
                     <div className="dotted-bullet"></div>
-                    <h2 className="info-content tnr">Domain: http://www.CarlosCarras.com</h2>
+                    <h2 className="info-content tnr">Domain: http://www.CarlosCarras.tech</h2>
                 </div>
             </div>
 
@@ -313,7 +313,7 @@ function ResumeContent() {
             </div>
 
         </div>
-    );
+    )
 }
 
 export default ResumeContent;

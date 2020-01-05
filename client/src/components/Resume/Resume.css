@@ -6,7 +6,7 @@
 }
 .resume-page-container > h1 {
     color: white;
-    font-size: 3em;
+    font-size: 3rem;
     text-align: center;
     margin-bottom: 8vh;
     box-sizing: border-box;
@@ -15,7 +15,7 @@
 .resume-page-container > .paper {
     position: relative;
     display: inline-block;
-    width: 65vw;
+    width: 90vw;
     max-width: 1024px;
     background: rgba(255,255,255,0.8);
     left: 50%;

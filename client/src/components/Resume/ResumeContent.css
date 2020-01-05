@@ -7,13 +7,13 @@
 }
 
 .name {
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
     font-weight: bold;
 }
 
 .info-content {
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .section-header {
-    font-size: 1.1em;
+    font-size: 1.1rem;
     font-weight: bold;
     padding-left: 20px;
 }
@@ -55,15 +55,15 @@
 }
 
 .resume-text {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 .dotted-bullet {
-    height: 0.25em;
-    width: 0.25em;
+    height: 0.25rem;
+    width: 0.25rem;
     transform: translate(0, 200%);
-    margin-right: 0.5em;
-    margin-left: 0.5em;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
     background: black;
     border-radius: 50%;
 }

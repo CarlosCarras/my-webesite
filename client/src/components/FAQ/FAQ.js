@@ -9,7 +9,7 @@ class FAQ extends React.Component {
                 <div className="accordion">
                     <div className="accordion-item" id="question1">
                         <a className="accordion-link" href="#question1">
-                            Why did you decide to pursue a Mechaincal Engineering and Computer Engineering dual degree?
+                            Why did you decide to pursue a Mechanical Engineering and Computer Engineering dual degree?
                             <i className="icon ion-md-add"/>
                             <i className="icon ion-md-remove"/>
                         </a>

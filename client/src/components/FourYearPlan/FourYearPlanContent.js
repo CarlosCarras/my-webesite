@@ -31,13 +31,13 @@ const four_year_plan = [
                                 ["EGM3344:   Numerical Analysis", 3],
                                 ["COP3530:   Data Structures ", 4],
                                 ["EGM 3401:  Dynamics", 3],
-                                ["EGM3520:   Mechanic of Materials ", 3],
+                                ["EGM3520:   Mechanics of Materials ", 3],
                                 ["EGS4034:   Ethics & Professionalism ", 1],
                                 ["Total: ", 18]
                             ],
                             [
                                 ["EGN3353C:  Fluid Mechanics", 3],
-                                ["EEL3701C:  Digital Logic", 4],
+                                ["EEL3701C:  Digital Logic and Computer Systems", 4],
                                 ["EML2322L:  Design and Manufacturing Lab", 2],
                                 ["CDA3101:   Introduction to Computer Organization", 3],
                                 ["STA4321:   Introduction to Probability", 3],
@@ -45,7 +45,7 @@ const four_year_plan = [
                             ],
                             [
                                 ["EEL3135:   Signals and Systems", 4],
-                                ["EML4321:   Control Systems", 3],
+                                ["EML4312:   Control Systems", 3],
                                 ["MAS3114:   Computational Linear Algebra", 3],
                                 ["Total: ", 10]
                             ],
@@ -86,7 +86,7 @@ function FourYearPlanContent() {
                     <div className="dotted-bullet"></div>
                     <h2 className="info-content tnr">Email: c.carrasquillo@ufl.edu</h2>
                     <div className="dotted-bullet"></div>
-                    <h2 className="info-content tnr">Domain: http://www.CarlosCarras.com</h2>
+                    <h2 className="info-content tnr">Domain: http://www.CarlosCarras.tech</h2>
                 </div>
             </div>
 
