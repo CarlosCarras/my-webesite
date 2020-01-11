@@ -112,3 +112,24 @@
 			-moz-transform: rotate(2deg);
 			transform: rotate(2deg);
 	}
+
+	/* End of Tutorial */
+
+	.coding-process-col-img {
+			display: flex;
+			justify-content: center;
+			padding: 12vh 5vw 0;
+	}
+
+	.development-suite-col-text {
+			padding: 0 10vw 0 10vw;
+	}
+
+	@media screen and (min-width: 600px) {
+			.coding-process-col-img {
+					padding: 0 8vw 0 2vw;
+			}
+			.development-suite-col-text {
+					padding: 0 10vw 0 5vw;
+			}
+	}

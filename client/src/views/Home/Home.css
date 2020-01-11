@@ -4,12 +4,8 @@
 
 .section1 {
     background-image: url("../../assets/wallpaper-homescreen.jpg");
-    background-attachment: fixed;
-    overflow: hidden;
-    width: 100%;
-    height: 600px;
-    position: relative;
-    margin: 0px;
+    min-height: 90vh;
+    width: 100vw;
 }
 .section1 > header {
     position: relative;
@@ -318,11 +314,11 @@
 #title-caption:last-of-type span {
     color: orange;
     margin-left:-355px;
-    animation: slidein 3s ease forwards 2.5s;
-    -o-animation: slidein 3s ease forwards 2.5s;
-    -ms-animation: slidein 3s ease forwards 2.5s;
-    -moz-animation: slidein 3s ease forwards 2.5s;
-    -webkit-animation: slidein 3s ease forwards 2.5s;
+    animation: slidein 3s ease forwards 0.4s;
+    -o-animation: slidein 3s ease forwards 0.4s;
+    -ms-animation: slidein 3s ease forwards 0.4s;
+    -moz-animation: slidein 3s ease forwards 0.4s;
+    -webkit-animation: slidein 3s ease forwards 0.4s;
 
 }
 
@@ -342,7 +338,7 @@
 
 .scroll-arrow a {
   position: absolute;
-  bottom: 40px;
+  bottom: 10%;
   left: 50%;
   z-index: 2;
   display: inline-block;

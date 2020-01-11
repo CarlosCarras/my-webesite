@@ -120,32 +120,32 @@ class PCBuild extends React.Component {
                             </div>
                         </div>
                         <div className="three-col-format-column">
-                            <ul class="project-timeline">
-                                <li class="project-timeline-event" data-date="October 5, 2017">
+                            <ul className="project-timeline">
+                                <li className="project-timeline-event" data-date="October 5, 2017">
                                     <h3>The i7 8700K was launched.</h3>
                                     <p>So I bought one.</p>
                                 </li>
-                                <li class="project-timeline-event" data-date="January 6, 2018">
+                                <li className="project-timeline-event" data-date="January 6, 2018">
                                     <h3>A test bench was assmebled.</h3>
                                     <p>It was confirmed that the computed booted to BIOS.</p>
                                 </li>
-                                <li class="project-timeline-event" id="date" data-date="January 14, 2018">
+                                <li className="project-timeline-event" id="date" data-date="January 14, 2018">
                                     <h3>A mounting bracket for the pump was designed in CAD.</h3>
                                     <p>The following day, the mounting bracket was 3D printed out of ABS plastic.</p>
                                 </li>
-                                <li class="project-timeline-event" data-date="January 16, 2018">
+                                <li className="project-timeline-event" data-date="January 16, 2018">
                                     <h3>The liquid cooling loop was assembled.</h3>
                                     <p>PETG tubing was cut to shape and bent to complete the liquid cooling loop.</p>
                                 </li>
-                                <li class="project-timeline-event" data-date="January 29, 2018">
+                                <li className="project-timeline-event" data-date="January 29, 2018">
                                     <h3>The computer was finished.</h3>
                                     <p>The loop was flushed with distilled water before being filled with the coolant. It was then monitored for leaks.</p>
                                 </li>
-                                <li class="project-timeline-event" data-date="January 30, 2018">
+                                <li className="project-timeline-event" data-date="January 30, 2018">
                                     <h3>The computer was stress tested.</h3>
                                     <p>Software was used to assess the performance of the PC, resulting in outstanding numbers.</p>
                                 </li>
-                                <li class="project-timeline-event" data-date="January 30, 2018">
+                                <li className="project-timeline-event" data-date="January 30, 2018">
                                     <h3>The computer was overclocked.</h3>
                                     <p>This resulted in higher temperatures which warped the plastic mounting bracket.</p>
                                 </li>

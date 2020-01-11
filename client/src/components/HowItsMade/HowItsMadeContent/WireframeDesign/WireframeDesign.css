@@ -51,12 +51,12 @@
 		width: 180px;
 }
 
-.wireframe-design-col-left {
+.wireframe-design-col-text {
 		padding: 50px 10vw 0 10vw;
 }
 
 @media only screen and (max-width: 600px) {
-		.wireframe-design-col-left {
+		.wireframe-design-col-text {
 				padding: 100px 10vw 0 0;
 		}
 }

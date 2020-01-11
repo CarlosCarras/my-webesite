@@ -129,8 +129,8 @@ function ResumeContent() {
                             grading design reports, completing TA projects to enhance the lab. SolidWorks is heavily used for all design processes.
                         </li>
                         <li className="entry-name tnr">
-                            Teaching groups of four to five students at a time about the safe and proper operation of shop eqiupment (e.g. milling
-                            machines, lathes, sheetmetal eqiupment, etc.).
+                            Teaching groups of four to five students at a time about the safe and proper operation of shop equipment (e.g. milling
+                            machines, lathes, sheetmetal equipment, etc.).
                         </li>
                     </div>
                     <br/>

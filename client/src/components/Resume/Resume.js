@@ -2,6 +2,7 @@ import React from 'react';
 import ResumeContent from './ResumeContent';
 import Draggable from './../Draggable/Draggable';
 import ResumeFile from './../../assets/pdf-resume.pdf';
+import ResumeImage from './../../assets/png-resume.png';
 import {Button} from 'antd';
 import 'antd/dist/antd.css';
 import './Resume.css';
@@ -9,7 +10,9 @@ import './Resume.css';
 class Resume extends React.Component {
     getResume() {
         if (window.screen.width < 800) {
-
+            return (
+                <img src={ResumeImage} alt="carlos\'s resume" className="resumeImage"/>
+            )
         }
         else {
             return (

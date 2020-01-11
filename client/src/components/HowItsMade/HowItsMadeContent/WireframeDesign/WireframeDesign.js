@@ -7,7 +7,7 @@ const HomescreenWireframe    = require('./../../../../assets/wireframe-home.png'
 class WireframeDesign extends React.Component {
     getImage(){
         return(
-            <div className="two-col-format-column" style={{padding: "auto"}}>
+            <div className="two-col-format-column wireframe-design-col-text">
                 <div className="wireframe-design-container">
                     <div className="wireframe">
                         <img src={HomescreenWireframe} alt="Homescreen Wireframe"/>
@@ -22,7 +22,7 @@ class WireframeDesign extends React.Component {
 
     getText(){
         return (
-            <div className="two-col-format-column wireframe-design-col-left">
+            <div className="two-col-format-column wireframe-design-col-text">
                 <p>
                     Next, to imagine what the end result might look like, I drew up a couple of wireframes using Microsoft PowerPoint and Notability.
                     These wireframes were medium-fidelity, which means that, while better than a hand-drawn concept, all dimensions were not final.

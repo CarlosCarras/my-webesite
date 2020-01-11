@@ -64,7 +64,7 @@
 
 .answer {
     max-height: 0;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
     background-color: #212838;
     transition: max-height 0.65s;

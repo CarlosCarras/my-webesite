@@ -10,7 +10,7 @@ const JavaScriptLogo = require('./../../../../assets/logo-javascript.png'),
 class DevelopmentSuite extends React.Component {
     getImage() {
         return (
-            <div className="two-col-format-column">
+            <div className="two-col-format-column development-suite-col-img">
                 <div className="development-suite-album">
                     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" className="large polaroid img1" target="_blank" rel="noopener noreferrer">
                         <img src={JavaScriptLogo} alt="javascript logo"/> Javascript
@@ -34,7 +34,7 @@ class DevelopmentSuite extends React.Component {
 
     getText(){
         return (
-            <div className="two-col-format-column" style={{padding: "0 10vw"}}>
+            <div className="two-col-format-column development-suite-col-text">
                 <p>
                     Next, it was time to select the software suite to make the website come to life. I had used a little bit of React in a previous college course
                     (Introduction to Software Engineering), so using the React library was a no-brainer. HTML, CSS, and Javascript (using Node.js) were a given for the front-end.

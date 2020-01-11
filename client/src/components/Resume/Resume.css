@@ -47,6 +47,10 @@
     color: white;
 }
 
+img.resumeImage {
+    width: 100%;
+}
+
 /* For Smartphone viewing */
 @media (max-width: 1024px) {
   .sticky {

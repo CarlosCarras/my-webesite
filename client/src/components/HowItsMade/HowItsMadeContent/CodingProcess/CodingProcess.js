@@ -9,7 +9,7 @@ const Coding    = require('./../../../../assets/process-coding.png'),
 class CodingProcess extends React.Component {
     getImage() {
         return(
-            <div className="two-col-format-column coding-process-col-right">
+            <div className="two-col-format-column coding-process-col-img">
                 <div className="coding-process-container">
                     <div className="image-box">
                         <img src={SettingUp} alt="setting up process"/>
@@ -34,7 +34,7 @@ class CodingProcess extends React.Component {
 
     getText() {
         return(
-          <div className="two-col-format-column coding-process-col-left">
+          <div className="two-col-format-column coding-process-col-text">
               <p>
                   The coding phase was by far the most time consuming out of all of the phases. I started by writing a script that would start up Atom, the client, the server, and a file browser window.
                   I then used a React App template that I had obtained from the aforementioned Software Engineering course and built my website on top of it. React Bootstrap proved especially useful when

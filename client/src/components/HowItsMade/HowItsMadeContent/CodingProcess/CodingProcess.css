@@ -52,25 +52,21 @@
 	  height: 100%;
 }
 
-.coding-process-col-right {
+.coding-process-col-img {
 		display: flex;
 		justify-content: center;
-		padding: 0 5vw 0;
+		padding: 12vh 5vw 0;
 }
 
-.coding-process-col-left {
-		display: flex;
-		justify-content: center;
-		padding: 100px 10vw 0 0;
+.coding-process-col-text {
+		padding: 10vw 10vw;
 }
 
 @media screen and (min-width: 600px) {
-		.coding-process-col-right {
-				display: flex;
-				justify-content: center;
+		.coding-process-col-img {
 				padding: 0 8vw 0 2vw;
 		}
-		.coding-process-col-left {
-				padding: 50px 0 0 10vw;
+		.coding-process-col-text {
+				padding: 50px 5vw 0 10vw;
 		}
 }

@@ -4,7 +4,7 @@ import './FAQ.css';
 class FAQ extends React.Component {
     render() {
         return(
-            <div className="faq-container">
+            <div className="faq-container parallax">
                 <h1>Frequently Asked Questions</h1>
                 <div className="accordion">
                     <div className="accordion-item" id="question1">
