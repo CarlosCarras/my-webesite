@@ -1,8 +1,7 @@
 .contact-me-container {
     background-color: #E9E9E9;
     display:inline-block;
-    padding-top: 10vh;
-    min-height: 75vh;
+    padding-top: 15vh;
     width: 100vw;
     overflow: hidden;
 }
@@ -86,16 +85,21 @@
 @media screen and (min-width: 1024px) {
     .contact-me-col-left {
         padding-left: 10vw;
-        display: flex;
-        justify-content: center;
         text-align: left;
     }
     .contact-me-col-right {
         padding-right: 10vw;
-        display: flex;
-        justify-content: center;
     }
     .summary {
         text-align: left;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .contact-me-col-left {
+        padding-left: 20vw;
+    }
+    .contact-me-col-right {
+        padding-right: 20vw;
     }
 }

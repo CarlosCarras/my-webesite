@@ -61,7 +61,6 @@
 .section2 {
     background-color: #282c34;
     color: white;
-    min-height: 80vh;
     color: white;
     padding: 0 15vw 0;
     width: 100vw;
@@ -81,7 +80,6 @@
 
 .section2 img {
     height: 380px;
-    width:  300px;
 }
 
 

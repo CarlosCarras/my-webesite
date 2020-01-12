@@ -42,7 +42,7 @@ class ContactMe extends React.Component {
             <div className="contact-me-container">
                 <div className="row" style={{paddingBottom: "10vh"}}>
                     <div className="two-col-format-column contact-me-col-left">
-                        <div>
+                        <div className="summary-wrapper">
                             <header>Contact Me</header>
                             <div className="summary">
                                 <img src={ProfilePic} alt="profile pic"/>

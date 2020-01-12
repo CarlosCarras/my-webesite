@@ -70,7 +70,7 @@ function Home() {
 
             <div className="section2" id="AboutMe">
                 <header><ScrollLink to="section2" spy={true} smooth={true} offset={-70} duration= {500}> About Me </ScrollLink></header>
-                <div className="row" style={{paddingBottom:"50px"}}>
+                <div className="row" style={{paddingBottom:"15vh"}}>
                     <div className="two-col-format-column about-me-column-left">
                         <div className="profile-pic-frame">
                             <img src={ProfilePic} alt="profile pic"/>
