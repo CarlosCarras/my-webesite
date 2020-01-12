@@ -444,7 +444,6 @@
 /* For Smartphones */
 @media only screen and (max-width: 980px) {
     #page-title {
-        margin-top: 30%;
         width: 80%;
     }
     .section1 > header > h2 {
@@ -469,5 +468,11 @@
     }
     .about-me-text {
         padding: 0 15vw 0;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .section1 {
+        background-image: url("../../assets/wallpaper-homescreen-phone.jpg");
     }
 }

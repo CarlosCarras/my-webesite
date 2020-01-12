@@ -1,6 +1,6 @@
 module.exports = {
     website: {
-        domain: 'CarlosCarras.com',
+        domain: 'CarlosCarras.tech',
         phone: '(787) 668-8096',
         email: 'c.carrasquillo@ufl.edu'
     },

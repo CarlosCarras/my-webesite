@@ -2,10 +2,18 @@ import React from 'react';
 import './FAQ.css';
 
 class FAQ extends React.Component {
+    getTitle() {
+        if (window.screen.width <= 680) {
+            return "FAQ"
+        }
+        else {
+            return "Frequently Asked Questions"
+        }
+    }
     render() {
         return(
             <div className="faq-container parallax">
-                <h1>Frequently Asked Questions</h1>
+                <h1>{this.getTitle()}</h1>
                 <div className="accordion">
                     <div className="accordion-item" id="question1">
                         <a className="accordion-link" href="#question1">
