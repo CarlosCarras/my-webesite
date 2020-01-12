@@ -40,7 +40,7 @@ class ContactMe extends React.Component {
     render(){
         return (
             <div className="contact-me-container">
-                <div className="row" style={{paddingBottom: "10vh"}}>
+                <div className="row" style={{paddingBottom: "15vh"}}>
                     <div className="two-col-format-column contact-me-col-left">
                         <div className="summary-wrapper">
                             <header>Contact Me</header>
