@@ -1,9 +1,10 @@
-.deploying-left-col {
+.deploying-col-img {
     display: flex;
     justify-content: center;
+    padding-bottom: 10vh;
 }
-.deploying-right-col {
-    padding-right: 10vw;
+.deploying-col-text {
+    padding: 0 10vw 0 5vw;
 }
 
 /* Using Tutorial http://cssdeck.com/labs/large-pressable-css-button by Rishabh*/
@@ -75,9 +76,8 @@
 }
 
 @media screen and (max-width: 1024px) {
-		.coding-process-col-right {
-				display: flex;
-				justify-content: center;
+		.deploying-col-text {
+				padding: 0 10vw;
 				margin-bottom: 80px;
 		}
 }

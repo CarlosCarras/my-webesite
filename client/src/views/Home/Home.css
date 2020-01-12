@@ -1,5 +1,6 @@
 .App {
     text-align: center;
+    overflow: hidden;
 }
 
 .section1 {
@@ -32,6 +33,7 @@
     color: white;
     position: relative;
     text-align: left;
+    justify-content: left;
     margin-bottom: 15vh;
 }
 .section1 > header > h2 {
@@ -105,6 +107,7 @@
 
 /* Created Using Tutorial: https://www.youtube.com/watch?v=vJNVramny9k by Dev Ed*/
 #page-title {
+    width: 55%;
     animation: fill 1s ease forwards 2.5s;
     -o-animation: fill 1s ease forwards 2.5s;
     -ms-animation: fill 1s ease forwards 2.5s;
@@ -293,9 +296,9 @@
 /* End of Tutorial */
 
 #title-caption {
-    display:inline-block;
-    overflow:hidden;
-    white-space:nowrap;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
     float: left;
 }
 
@@ -442,22 +445,31 @@
 
 /* For Smartphones */
 @media only screen and (max-width: 980px) {
+    #page-title {
+        margin-top: 30%;
+        width: 80%;
+    }
+    .section1 > header > h2 {
+        font-size: 1.5em;
+    }
+    .section1 > header > h5 {
+        font-size: 0.9em;
+    }
     .section2 {
-        background-color: #282828;
-        color: white;
-        min-height: 80vh;
-        color: white;
+        padding: 0;
         justify-content: center;
     }
     .profile-pic-frame {
-        background: white;
-        padding-top: 10px;
         margin-bottom: 50px;
-        height: 400px;
-        width: 320px;
     }
     .about-me-column-left {
         display: flex;
         justify-content: center;
+    }
+    .section2 {
+        padding: 0;
+    }
+    .about-me-text {
+        padding: 0 15vw 0;
     }
 }

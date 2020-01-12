@@ -6,7 +6,7 @@ import './Navbar.css';
 class NavBar extends React.Component {
 
     getContent() {
-        if (window.screen.width < 800) {
+        if (window.screen.width <= 1024) {
             return (
                 <Navbar collapseOnSelect expand="lg" variant="dark" style={{backgroundColor: "black"}}>
                     <Navbar.Brand href="/Home">C/C</Navbar.Brand>

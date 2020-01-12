@@ -1,7 +1,7 @@
 /* Using Tutorial: https://www.youtube.com/watch?v=4CeTFW4agRw by Brice Ayres*/
 
 .form-wrapper {
-    width: 400px;
+    width: 26em;
     display: flex;
     flex-direction: column;
     padding: 20px 40px;

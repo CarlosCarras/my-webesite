@@ -105,7 +105,7 @@
     list-style: none;
     text-align: left;
     font-weight: 100;
-    max-width: 70%;
+    max-width: 60%;
 }
 .project-timeline h1 {
     letter-spacing: 1.5px;
@@ -161,5 +161,11 @@
     .project-info-box {
         margin-right: 0;
         max-width: 100%;
+    }
+    .project-timeline {
+        margin-bottom: 10vh;
+    }
+    .project-timeline .project-timeline-event:before {
+        font-size: 0.8em;
     }
 }

@@ -7,7 +7,7 @@ const HomescreenWireframe    = require('./../../../../assets/wireframe-home.png'
 class WireframeDesign extends React.Component {
     getImage(){
         return(
-            <div className="two-col-format-column wireframe-design-col-text">
+            <div className="two-col-format-column wireframe-design-col-img">
                 <div className="wireframe-design-container">
                     <div className="wireframe">
                         <img src={HomescreenWireframe} alt="Homescreen Wireframe"/>
@@ -35,7 +35,7 @@ class WireframeDesign extends React.Component {
     render() {
         if (window.screen.width < 800) {
             return (
-                <div className="row" style={{paddingBottom: "100px"}}>
+                <div className="row wireframe-section">
                     {this.getImage()}
                     {this.getText()}
                 </div>
@@ -43,7 +43,7 @@ class WireframeDesign extends React.Component {
         }
         else {
             return (
-                <div className="row" style={{paddingBottom: "100px"}}>
+                <div className="row wireframe-section">
                     {this.getText()}
                     {this.getImage()}
                 </div>

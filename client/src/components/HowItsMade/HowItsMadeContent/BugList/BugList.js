@@ -9,10 +9,6 @@ class BugList extends React.Component {
                 <ul className="bug-list">
 
                     <span style={{color: "green"}}>Importance:&nbsp;</span>
-                    <span style={{color: "#777777"}}>High</span><br/>
-                    <li>The ~/Projects directory has not yet been implemented.</li><br/>
-
-                    <span style={{color: "green"}}>Importance:&nbsp;</span>
                     <span style={{color: "#777777"}}>Medium</span><br/>
                     <li>After scrolling down in the Resume tab, moving the sticky note results in an unexpected upwards translation.</li><br/>
 

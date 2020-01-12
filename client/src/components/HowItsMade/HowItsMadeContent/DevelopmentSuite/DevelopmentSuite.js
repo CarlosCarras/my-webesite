@@ -53,7 +53,7 @@ class DevelopmentSuite extends React.Component {
 
     render() {
         return (
-            <div className="row">
+            <div className="row" style={{paddingBottom: "10vh"}}>
                 {this.getImage()}{this.getText()}
             </div>
         )

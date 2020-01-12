@@ -3,8 +3,8 @@ import './UserStories.css'
 
 function UserStories() {
     return (
-      <div className="row section user-story-section">
-          <div className="two-col-format-column user-story-col-left">
+      <div className="row user-story-section">
+          <div className="two-col-format-column user-story-col-img">
               <div className="scrolling-wrapper-flexbox">
                   <div className="story-card">
                       <p> As a user, I want to see a summary of who the site owner is so that I can .</p>
@@ -40,7 +40,7 @@ function UserStories() {
                   </div>
               </div>
           </div>
-          <div className="two-col-format-column user-story-col-right">
+          <div className="two-col-format-column user-story-col-text">
               <p>
                   It began with the User Stories. A set of user stories describes the minimum functionallity that a webpage must have from the perspective of an intended
                   user. User Stories act as a high-level overview of the functionallity of the webpage. They follow a straight-forward template:
