@@ -474,5 +474,6 @@
 @media only screen and (max-width: 680px) {
     .section1 {
         background-image: url("../../assets/wallpaper-homescreen-phone.jpg");
+        background-size: 100vh auto;
     }
 }
