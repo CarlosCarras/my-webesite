@@ -8,10 +8,14 @@
   height: 35px;
 }
 
-.github-logo-color {
+.github-logo-color,
+.linkedin-logo {
   fill: #ffffff;
 }
 
-.github-logo-color:hover {
+/*
+.github-logo-color:hover,
+.linkedin-logo:hover {
   fill: #bbbbbb;
 }
+*/
