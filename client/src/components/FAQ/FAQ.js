@@ -30,7 +30,7 @@ class FAQ extends React.Component {
                     </div>
                     <div className="accordion-item" id="question2">
                         <a className="accordion-link" href="#question2">
-                            Outside of classes and extracuriculars, what do you do for fun?
+                            Outside of classes and extracurriculars, what do you do for fun?
                             <i className="icon ion-md-add"/>
                             <i className="icon ion-md-remove"/>
                         </a>

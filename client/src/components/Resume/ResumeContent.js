@@ -75,10 +75,11 @@ function ResumeContent() {
                     <div className="row">
                         <div className="course-list-ul entry">
                             <span className="resume-text">
-                                <li className="tnr">EML4312: Control of Mechanical Systems</li>
+                                <li className="tnr">EML4314C: Dynamics and Controls Lab</li>
+                                <li className="tnr">EML4312:  Control of Mechanical Systems</li>
+                                <li className="tnr">EML4140:  Heat Transfer</li>
+                                <li className="tnr">EML4220:  Vibrations</li>
                                 <li className="tnr">EML3005:  Mechanical Design 1</li>
-                                <li className="tnr">EML3100:  Thermodynamics</li>
-                                <li className="tnr">EGM3401:  Dynamics</li>
                                 <li className="tnr">EGM3530:  Mechanics of Materials</li>
                                 <li className="tnr">EML2023:  Computer-Aided Design using SolidWorks</li>
                                 <li className="tnr">EGM2322L: Design and Manufacturing Laboratory</li>
@@ -88,7 +89,9 @@ function ResumeContent() {
                         </div>
                         <div className="course-list-ul">
                             <span className="resume-text">
-                                <li className="tnr">EEL3111C: Circuits 1</li>
+                                <li className="tnr">EEL3923C: Electrical Engineering Design I</li>
+                                <li className="tnr">EEL4712:  Digital Design</li>
+                                <li className="tnr">EEL3111C: Circuits I</li>
                                 <li className="tnr">EEL3701C: Digital Logic and Computer Systems</li>
                                 <li className="tnr">CDA3101:  Computer Organization using ARM</li>
                                 <li className="tnr">COP3530:  Data Structures and Algorithms using C++</li>
@@ -170,7 +173,7 @@ function ResumeContent() {
                             integration/derivation, etc.
                         </li>
                         <li className="entry-name tnr">
-                            Gave lectures on Fourier analysis, graded MATLAB homework submissions.
+                            Gave lecture on Fourier analysis, graded MATLAB homework submissions.
                         </li>
                     </div>
                     <br/>
@@ -199,6 +202,26 @@ function ResumeContent() {
 
                     <div className="entry">
                         <div className="entry-name bold-text font-size-1pt1em tnr">
+                            SwampHacks VI Infinite Energy's Best Hack Award Recipient
+                        </div>
+                        <div className="entry-date bold-text font-size-1pt1em tnr">
+                            January 2020
+                        </div>
+                    </div>
+                    <br/>
+                    <div className="entry course-list-ul">
+                        <li className="entry-name tnr">
+                            Participated and won an award at a hackathon hosted by UF for proposing a solution to the problems with
+                            current hurricane relief efforts.
+                        </li>
+                        <li className="entry-name tnr">
+                            Developed the front-end for rtrescue.tech [see Projects tab].
+                        </li>
+                    </div>
+                    <br/>
+
+                    <div className="entry">
+                        <div className="entry-name bold-text font-size-1pt1em tnr">
                             Students for the Exploration and Development of Space
                         </div>
                         <div className="entry-date bold-text font-size-1pt1em tnr">
@@ -214,6 +237,7 @@ function ResumeContent() {
                             Planning events and activities for the physics department.
                         </li>
                     </div>
+
                 </div>
             </div>
 

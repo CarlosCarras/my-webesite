@@ -22,7 +22,9 @@ const Longboard   = require('./../../assets/gallery-longboard.JPG'),
       TADinner    = require('./../../assets/gallery-TA_dinner.jpg'),
       Zipline     = require('./../../assets/gallery-zipline.jpg'),
       Basketball  = require('./../../assets/gallery-basketball.png'),
-      Flying      = require('./../../assets/gallery-flying.jpg');
+      Flying      = require('./../../assets/gallery-flying.jpg'),
+      Ohmmeter    = require('./../../assets/gallery-ohmmeter.jpg'),
+      SwampHacks  = require('./../../assets/gallery-swamphacks.jpg');
 
 
 
@@ -48,7 +50,9 @@ const images = [ [Longboard,   'Longboard', 'My longboard being taken apart for 
                  [TADinner,    'Numerical Methods TA Dinner', 'Thank you Dr. Brooks!', ''],
                  [Flying,      'Flying', 'Departing from San Juan, PR to Tampa, FL.', ''],
                  [Zipline,     'Ziplining', 'Ziplining in Toro Verde, PR.', ''],
-                 [Basketball,  'We\'re Talking \'bout Practice', 'Playing basketball at UF Student Rec.', ''],
+                 [Basketball,  'We\'re Talking \'bout Practice', 'Preparing for an intermural basketball game at UF Student Rec.', ''],
+                 [Ohmmeter,    'Ohmmeter', 'A custom ohmmeter circuit built for EEL3923C.', ''],
+                 [SwampHacks,  'Recipients of Infinite Energy\'s Best Hack', 'at SwampHacks 2020. Featuring Jaxon [left], Jonathan [right], and Sean [not pictured].', ''],
                ];
 
 class Gallery extends React.Component {
@@ -107,6 +111,8 @@ class Gallery extends React.Component {
                   {this.getElement(19)}
                   {this.getElement(20)}
                   {this.getElement(21)}
+                  {this.getElement(22)}
+                  {this.getElement(23)}
               </div>
           </div>
         )
