@@ -51,6 +51,7 @@ function ResumeContent() {
                     </div>
                     <br/>
                     <div className="resume-text tnr">Honors Program</div>
+                    <div className="resume-text tnr">HSF Scholar</div>
                 </div>
             </div>
 
@@ -75,6 +76,9 @@ function ResumeContent() {
                     <div className="row">
                         <div className="course-list-ul entry">
                             <span className="resume-text">
+                                <li className="tnr">EML6324:  Production Engineering</li>
+                                <li className="tnr">EML5526:  Finite Element Analysis and Design</li>
+                                <li className="tnr">EML4501:  Mechanical Design 2</li>
                                 <li className="tnr">EML4314C: Dynamics and Controls Lab</li>
                                 <li className="tnr">EML4312:  Control of Mechanical Systems</li>
                                 <li className="tnr">EML4140:  Heat Transfer</li>
@@ -89,14 +93,17 @@ function ResumeContent() {
                         </div>
                         <div className="course-list-ul">
                             <span className="resume-text">
-                                <li className="tnr">EEL3923C: Electrical Engineering Design I</li>
+                                <li className="tnr">EEL4924C: Electrical Engineering Design 2</li>
+                                <li className="tnr">EEE4773:  Machine Learning (using Python)</li>
+                                <li className="tnr">EEL4610:  State Variable Methods</li>
+                                <li className="tnr">EEL4598:  Computer Communications</li>
+                                <li className="tnr">EEL3923C: Electrical Engineering Design 1</li>
                                 <li className="tnr">EEL4712:  Digital Design</li>
-                                <li className="tnr">EEL3111C: Circuits I</li>
+                                <li className="tnr">EEL3111C: Circuits 1</li>
                                 <li className="tnr">EEL3701C: Digital Logic and Computer Systems</li>
                                 <li className="tnr">CDA3101:  Computer Organization using ARM</li>
                                 <li className="tnr">COP3530:  Data Structures and Algorithms using C++</li>
                                 <li className="tnr">EEL3135:  Introduction to Signals and Systems</li>
-                                <li className="tnr">EEE4773:  Machine Learning using Python</li>
                                 <li className="tnr">EEL3744C: Microprocessor Applications using C</li>
                                 <li className="tnr">CEN3031:  Software Engineering</li>
                             </span>
@@ -116,6 +123,38 @@ function ResumeContent() {
                 </div>
                 <div className="divider-line"></div>
                 <div className="section-content">
+
+                    <div className="entry">
+                        <div className="entry-name bold-text font-size-1pt1em tnr">
+                            TA for EML4314C: Dynamics and Controls Laboratory
+                        </div>
+                        <div className="entry-date bold-text font-size-1pt1em tnr">
+                            August 2020 - Present
+                        </div>
+                    </div>
+                    <br/>
+                    <div className="entry course-list-ul">
+                        <li className="entry-name tnr">
+                            Holding 6 lab sessions throughout the week to help students with LabVIEW programming, control theory, and system desgin.
+                        </li>
+                    </div>
+                    <br/>
+
+                    <div className="entry">
+                        <div className="entry-name bold-text font-size-1pt1em tnr">
+                            TA for EML4147C: Thermal Systems and Design Lab
+                        </div>
+                        <div className="entry-date bold-text font-size-1pt1em tnr">
+                            August 2020 - Present
+                        </div>
+                    </div>
+                    <br/>
+                    <div className="entry course-list-ul">
+                        <li className="entry-name tnr">
+                            Teaching students about the operating principles of IC engines. Helping students design engines and auxiliary devices.
+                        </li>
+                    </div>
+                    <br/>
 
                     <div className="entry">
                         <div className="entry-name bold-text font-size-1pt1em tnr">
@@ -149,11 +188,17 @@ function ResumeContent() {
                     <br/>
                     <div className="entry course-list-ul">
                         <li className="entry-name tnr">
-                            Developing code for a Cube-Sat navigation loop using ROS, C++ and Python. Communicating with radios to transmit signals
-                            from ground stations.
+                            Developing software for a Cube-Sat using ROS, C++ and Python. This code includes developing nodes for radio
+                            communications and avionics health checks. Developed I2C libraries for the on-board avionics. 
                         </li>
                         <li className="entry-name tnr">
                             Using command line to configure network settings on BeagleBone Black.
+                        </li>
+                        <li className="entry-name tnr">
+                            Developed a website for the lab using the MERN stack. 
+                        </li>
+                        <li className="entry-name tnr">
+                            Selected the appropriate groundstation hardware and wrote code to interface with it. Filled out all the appropriate IARU documentation.
                         </li>
                     </div>
                     <br/>
@@ -260,10 +305,13 @@ function ResumeContent() {
                                 <ReactTooltip id='java-info' type='info' effect='solid' place={'top'}>3 years</ReactTooltip>
                                 {/* C++ */}
                                 <span data-tip data-for='c++-info'><span className="tnr">C++,&nbsp;</span></span>
-                                <ReactTooltip id='c++-info' type='info' effect='solid' place={'top'}>2 years</ReactTooltip>
+                                <ReactTooltip id='c++-info' type='info' effect='solid' place={'top'}>3 years</ReactTooltip>
+                                {/* C */}
+                                <span data-tip data-for='python-info'><span className="tnr">C,&nbsp;</span></span>
+                                <ReactTooltip id='python-info' type='info' effect='solid' place={'top'}>2 years</ReactTooltip>
                                 {/* MATLAB */}
                                 <span data-tip data-for='matlab-info'><span className="tnr">MATLAB,&nbsp;</span></span>
-                                <ReactTooltip id='matlab-info' type='info' effect='solid' place={'top'}>2 years</ReactTooltip>
+                                <ReactTooltip id='matlab-info' type='info' effect='solid' place={'top'}>3 years</ReactTooltip>
                                 {/* Python */}
                                 <span data-tip data-for='python-info'><span className="tnr">Python</span></span>
                                 <ReactTooltip id='python-info' type='info' effect='solid' place={'top'}>1 year</ReactTooltip>

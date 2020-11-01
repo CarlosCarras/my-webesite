@@ -67,11 +67,23 @@ const four_year_plan = [
                             ],
                             [
                                 ["EML4501:   Mechanical Design 2", 3],
-                                ["EML4321:   Manufacturing", 3],
-                                ["EML4507:   Finite Element Analysis", 3],
+                                ["EML4147C:  Thermal Systems Design & Lab", 3],
+                                ["EEL4598:   Computer Communications", 3],
+                                ["EEL4610:   State Variable Methods", 3],
+                                ["Total: ", 12]
+                            ],
+                            [
+                                ["EML6324:   Production Engineering", 3],
+                                ["EML5526:   Finite Element Analysis and Design", 3],
+                                ["EEL4924C:  Electrical Engineering Design 2", 3],
+                                ["EGN4912:   Engineering Directed Independent Research", 2],
+                                ["EML4905:  Individual Study in Mechanical Engineering", 3],
+                                ["Total: ", 14]
+                            ],
+                            [
+                                ["EML5311:   Control System Theory", 3],
                                 ["COP4600:   Operating Systems", 3],
-                                ["EML4147C:  Heat Transfer Lab", 3],
-                                ["Total: ", 15]
+                                ["Total: ", 6]
                             ],
                        ];
 
@@ -379,7 +391,7 @@ function FourYearPlanContent() {
             </div>
 
             <div className="semeser-section">
-                <div className="semester-section-header tnr">Semester 9<span style={{float:"right"}} className="tnr">Fall, 2020</span></div>
+                <div className="semester-section-header tnr">Semester 9<span style={{float:"right"}} className="tnr">Summer, 2020</span></div>
                 <div className="divider-line"></div>
                 <div className="section-content">
                     <div className="semester-course-list">
@@ -402,14 +414,69 @@ function FourYearPlanContent() {
                             <div className="two-col-format-column"><li className="tnr">{four_year_plan[8][3][0]}</li></div>
                             <div className="two-col-format-column"><span className="bold-text tnr credit-number">{four_year_plan[8][3][1]}</span><br/></div>
                         </div>
+                        <br/>
+                        <div className="row">
+                            <div className="two-col-format-column"><span className="credit-total tnr">{four_year_plan[8][4][0]}</span></div>
+                            <div className="two-col-format-column"><span className="bold-text tnr credit-number">{four_year_plan[8][4][1]}</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="semeser-section">
+                <div className="semester-section-header tnr">Semester 10<span style={{float:"right"}} className="tnr">Fall, 2020</span></div>
+                <div className="divider-line"></div>
+                <div className="section-content">
+                    <div className="semester-course-list">
+                        <div className="row">
+                            <div className="two-col-format-column"></div>
+                            <div className="two-col-format-column"><span className="bold-text tnr credit-label">Credits</span><br/></div></div>
                         <div className= "row">
-                            <div className="two-col-format-column"><li className="tnr">{four_year_plan[8][4][0]}</li></div>
-                            <div className="two-col-format-column"><span className="bold-text tnr credit-number">{four_year_plan[8][4][1]}</span><br/></div>
+                            <div className="two-col-format-column"><li className="tnr">{four_year_plan[9][0][0]}</li></div>
+                            <div className="two-col-format-column"><span className="bold-text tnr credit-number">{four_year_plan[9][0][1]}</span><br/></div>
+                        </div>
+                        <div className= "row">
+                            <div className="two-col-format-column"><li className="tnr">{four_year_plan[9][1][0]}</li></div>
+                            <div className="two-col-format-column"><span className="bold-text tnr credit-number">{four_year_plan[9][1][1]}</span><br/></div>
+                        </div>
+                        <div className= "row">
+                            <div className="two-col-format-column"><li className="tnr">{four_year_plan[9][2][0]}</li></div>
+                            <div className="two-col-format-column"><span className="bold-text tnr credit-number">{four_year_plan[9][2][1]}</span><br/></div>
+                        </div>
+                        <div className= "row">
+                            <div className="two-col-format-column"><li className="tnr">{four_year_plan[9][3][0]}</li></div>
+                            <div className="two-col-format-column"><span className="bold-text tnr credit-number">{four_year_plan[9][3][1]}</span><br/></div>
+                        </div>
+                        <div className= "row">
+                            <div className="two-col-format-column"><li className="tnr">{four_year_plan[9][4][0]}</li></div>
+                            <div className="two-col-format-column"><span className="bold-text tnr credit-number">{four_year_plan[9][4][1]}</span><br/></div>
                         </div>
                         <br/>
                         <div className="row">
-                            <div className="two-col-format-column"><span className="credit-total tnr">{four_year_plan[8][5][0]}</span></div>
-                            <div className="two-col-format-column"><span className="bold-text tnr credit-number">{four_year_plan[8][5][1]}</span></div>
+                            <div className="two-col-format-column"><span className="credit-total tnr">{four_year_plan[9][5][0]}</span></div>
+                            <div className="two-col-format-column"><span className="bold-text tnr credit-number">{four_year_plan[9][5][1]}</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="semeser-section">
+                <div className="semester-section-header tnr">Semester 11 (Last)<span style={{float:"right"}} className="tnr">Spring, 2021</span></div>
+                <div className="divider-line"></div>
+                <div className="section-content">
+                    <div className="semester-course-list">
+                        <div className= "row">
+                            <div className="two-col-format-column"><li className="tnr">{four_year_plan[10][0][0]}</li></div>
+                            <div className="two-col-format-column"><span className="bold-text tnr credit-number">{four_year_plan[9][3][1]}</span><br/></div>
+                        </div>
+                        <div className= "row">
+                            <div className="two-col-format-column"><li className="tnr">{four_year_plan[10][1][0]}</li></div>
+                            <div className="two-col-format-column"><span className="bold-text tnr credit-number">{four_year_plan[9][4][1]}</span><br/></div>
+                        </div>
+                        <br/>
+                        <div className="row">
+                            <div className="two-col-format-column"><span className="credit-total tnr">{four_year_plan[10][2][0]}</span></div>
+                            <div className="two-col-format-column"><span className="bold-text tnr credit-number">{four_year_plan[10][2][1]}</span></div>
                         </div>
                     </div>
                 </div>
