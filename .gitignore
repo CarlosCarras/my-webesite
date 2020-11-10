@@ -1,0 +1,5 @@
+server/config/config.js
+client/node_modules
+node_modules/
+.vscode
+workflow_setup.shnpm 
