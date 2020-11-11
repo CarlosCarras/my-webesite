@@ -1,6 +1,6 @@
 const nodemailer  = require('nodemailer'),
       mailgun     = require('nodemailer-mailgun-transport'),
-      my_domain   = require('../config/config').website.domain,
+      my_domain   = process.env.MY_DOMAIN || require('../config/config').website.domain,
       api_key     = process.env.MAILGUN_KEY || require('../config/config').mailgun.api_key,
       mail_domain = process.env.MAILGUN_DOMAIN || require('../config/config').mailgun.domain,
       to          = process.env.MAILGUN_EMAIL || require('../config/config').mailgun.destinationEmail,
