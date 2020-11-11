@@ -1,9 +1,9 @@
 const nodemailer  = require('nodemailer'),
       mailgun     = require('nodemailer-mailgun-transport'),
       my_domain   = require('../config/config').website.domain,
-      api_key     = require('../config/config').mailgun.api_key,
-      mail_domain = require('../config/config').mailgun.domain,
-      to          = require('../config/config').mailgun.destinationEmail,
+      api_key     = process.env.MAILGUN_KEY || require('../config/config').mailgun.api_key,
+      mail_domain = process.env.MAILGUN_DOMAIN || require('../config/config').mailgun.domain,
+      to          = process.env.MAILGUN_EMAIL || require('../config/config').mailgun.destinationEmail,
       auth        = { auth: { api_key: api_key, domain:  mail_domain } },
       transporter = nodemailer.createTransport(mailgun(auth));
 

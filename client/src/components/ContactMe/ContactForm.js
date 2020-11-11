@@ -120,7 +120,7 @@ class App extends Component {
                     <div className="message">
                         <label htmlFor="message">Message</label>
                         <textarea className={formErrors.message.length > 0 ? "error" : null}
-                               placeholder="Feature Not Currently Working"
+                               placeholder="Message"
                                type="message"
                                name="message"
                                noValidate
