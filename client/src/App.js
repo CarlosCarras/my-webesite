@@ -12,6 +12,7 @@ import Projects from "./components/Projects/Projects"
 import MountingBracket from "./components/Projects/ProjectListings/MountingBracket"
 import SwampHacksWebsite from "./components/Projects/ProjectListings/SwampHacksWebsite"
 import PCBuild from "./components/Projects/ProjectListings/PCBuild"
+import MAX from "./components/Projects/ProjectListings/MAX"
 import FourYearPlan from "./components/FourYearPlan/FourYearPlan"
 import Footer from "./components/Footer/Footer"
 import './assets/Theme.css';
@@ -33,6 +34,7 @@ const App = () => {
         <Route exact path="/Projects/PCBuild" component={PCBuild}></Route>
         <Route exact path="/Projects/MountingBracket" component={MountingBracket}></Route>
         <Route exact path="/Projects/SwampHacksWebsite" component={SwampHacksWebsite}></Route>
+        <Route exact path="/Projects/MAX" component={MAX}></Route>
         <Route exact path="/FourYearPlan" component={FourYearPlan}></Route>
         <Route component={NotFound}/>
       </Switch>

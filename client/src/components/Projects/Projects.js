@@ -11,8 +11,8 @@ class Projects extends React.Component {
                     <li><a href="/Projects/PCBuild">PC Build</a></li>
                     <li><a href="/Projects/MountingBracket">Pump Mounting Bracket</a></li>
                     <li><a href="/Projects/SwampHacksWebsite">SwampHacks Website</a></li>
-                    <li><a href="/Projects/ComingSoon">MAX: A Quadruped Robot</a></li>
-                    <li><a href="/Projects/ComingSoone">MIPS Processor</a></li>
+                    <li><a href="/Projects/MAX">MAX: A Quadruped Robot</a></li>
+                    <li><a href="/Projects/ComingSoon">MIPS Processor</a></li>
                     <li><a href="/Projects/ComingSoon">EML2322L Robot</a></li>
                     <li><a href="/Projects/ComingSoon">Benchtop Lathe CAD</a></li>
                     <li><a href="/Projects/ComingSoon">Robot Toy Dinosau CAD</a></li>
