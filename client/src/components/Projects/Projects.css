@@ -1,12 +1,12 @@
 .projects-container {
     padding: 10vh 0 10vh 0;
-    background-color: #252827;
+    background-color: #E9E9E9;
     min-height: 75vh;
     width: 100vw;
 }
 
 .projects-container > h1 {
-    color: white;
+    color: black;
     font-size: 3em;
     text-align: center;
     margin-bottom: 10vh;
